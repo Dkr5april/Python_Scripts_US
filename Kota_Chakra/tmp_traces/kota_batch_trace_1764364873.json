@@ -1,0 +1,381 @@
+[
+  {
+    "step": "input_row",
+    "time": 1764364872.919552,
+    "row_data": {
+      "match_date": "2025-11-29",
+      "match_time": "17:45",
+      "timezone": "04:00",
+      "captain_a_dob": "1993-08-13",
+      "captain_b_dob": "1991-06-15",
+      "calc_mode": "sidereal"
+    }
+  },
+  {
+    "step": "set_sidereal_mode",
+    "time": 1764364872.924114,
+    "mode": "lahiri"
+  },
+  {
+    "step": "timezone_ok",
+    "time": 1764364872.925663,
+    "tz": "UTC+04:00"
+  },
+  {
+    "step": "match_datetime_parsed",
+    "time": 1764364872.9289882,
+    "dt_utc": "2025-11-29 13:45:00+00:00"
+  },
+  {
+    "step": "julian_day",
+    "time": 1764364872.930566,
+    "jd_ut": 2461009.0729166665
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764364872.9334326,
+    "jd_ut": 2461009.0729166665,
+    "longs": {
+      "Sun": 247.5942027199508,
+      "Moon": 353.47240866512936,
+      "Mercury": 230.70921921579998,
+      "Venus": 238.40356553991168,
+      "Mars": 258.2372362661981,
+      "Jupiter": 114.62151495704796,
+      "Saturn": 355.15936851534434,
+      "Rahu": 343.88734638062414,
+      "Ketu": 163.8873463806242
+    }
+  },
+  {
+    "step": "planet_nak_summary",
+    "time": 1764364872.9363155,
+    "planet_naks": {
+      "Sun": 19,
+      "Moon": 27,
+      "Mercury": 17,
+      "Venus": 18,
+      "Mars": 20,
+      "Jupiter": 8,
+      "Saturn": 27,
+      "Rahu": 26,
+      "Ketu": 12
+    }
+  },
+  {
+    "step": "natal_dob_parsed",
+    "time": 1764364872.939075,
+    "dob_iso": "1993-08-13",
+    "dt_utc": "1993-08-13 00:00:00+00:00"
+  },
+  {
+    "step": "natal_moon_longitude",
+    "time": 1764364872.9415798,
+    "jd": 2449212.5,
+    "moon_long": 77.5329639942375,
+    "nakshatra_index": 6
+  },
+  {
+    "step": "natal_dob_parsed",
+    "time": 1764364872.9502375,
+    "dob_iso": "1991-06-15",
+    "dt_utc": "1991-06-15 00:00:00+00:00"
+  },
+  {
+    "step": "natal_moon_longitude",
+    "time": 1764364872.9542737,
+    "jd": 2448422.5,
+    "moon_long": 118.65845264340574,
+    "nakshatra_index": 9
+  },
+  {
+    "step": "janma_indices",
+    "time": 1764364872.9576828,
+    "janma_a": 6,
+    "janma_b": 9
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764364872.9610863,
+    "janma_index": 6,
+    "regions": {
+      "Stambha": [
+        10,
+        16,
+        23,
+        2
+      ],
+      "Madhya": [
+        9,
+        11,
+        16,
+        18,
+        23,
+        25,
+        2,
+        4
+      ],
+      "Prakaara": [
+        8,
+        12,
+        15,
+        19,
+        22,
+        26,
+        1,
+        5
+      ],
+      "Bahya": [
+        6,
+        7,
+        13,
+        14,
+        20,
+        21,
+        27,
+        0
+      ]
+    }
+  },
+  {
+    "step": "avakhada_pada_lord",
+    "time": 1764364872.9642775,
+    "nak": 6,
+    "pada": 2,
+    "midpoint": 81.96428571428571,
+    "lord": "Mercury"
+  },
+  {
+    "step": "malefic_entry",
+    "time": 1764364872.9690502,
+    "planet": "Mars",
+    "planet_long": 258.2372362661981,
+    "planet_nak": 20,
+    "delta": -3
+  },
+  {
+    "step": "malefic_entry",
+    "time": 1764364872.9760633,
+    "planet": "Saturn",
+    "planet_long": 355.15936851534434,
+    "planet_nak": 27,
+    "delta": -3
+  },
+  {
+    "step": "score_for_natal_result",
+    "time": 1764364872.9812758,
+    "result": {
+      "score": -6,
+      "kota_swami": "Mercury",
+      "kota_paala": "Mercury",
+      "regions": {
+        "Stambha": [
+          10,
+          16,
+          23,
+          2
+        ],
+        "Madhya": [
+          9,
+          11,
+          16,
+          18,
+          23,
+          25,
+          2,
+          4
+        ],
+        "Prakaara": [
+          8,
+          12,
+          15,
+          19,
+          22,
+          26,
+          1,
+          5
+        ],
+        "Bahya": [
+          6,
+          7,
+          13,
+          14,
+          20,
+          21,
+          27,
+          0
+        ]
+      },
+      "details": {
+        "added": [],
+        "subtracted": [
+          {
+            "reason": "malefic_entry",
+            "planet": "Mars",
+            "nak": 20,
+            "value": -3
+          },
+          {
+            "reason": "malefic_entry",
+            "planet": "Saturn",
+            "nak": 27,
+            "value": -3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764364872.9836638,
+    "janma_index": 9,
+    "regions": {
+      "Stambha": [
+        13,
+        19,
+        26,
+        5
+      ],
+      "Madhya": [
+        12,
+        14,
+        19,
+        21,
+        26,
+        0,
+        5,
+        7
+      ],
+      "Prakaara": [
+        11,
+        15,
+        18,
+        22,
+        25,
+        1,
+        4,
+        8
+      ],
+      "Bahya": [
+        9,
+        10,
+        16,
+        17,
+        23,
+        24,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "step": "avakhada_pada_lord",
+    "time": 1764364872.989321,
+    "nak": 9,
+    "pada": 3,
+    "midpoint": 123.75,
+    "lord": "Sun"
+  },
+  {
+    "step": "region_match",
+    "time": 1764364872.9941957,
+    "region": "Stambha",
+    "planet": "Sun",
+    "planet_long": 247.5942027199508,
+    "planet_nak": 19,
+    "delta": 3
+  },
+  {
+    "step": "region_match",
+    "time": 1764364872.9993052,
+    "region": "Madhya",
+    "planet": "Sun",
+    "planet_long": 247.5942027199508,
+    "planet_nak": 19,
+    "delta": 3
+  },
+  {
+    "step": "benefic_exit",
+    "time": 1764364873.0069637,
+    "planet": "Sun",
+    "planet_long": 247.5942027199508,
+    "planet_nak": 19,
+    "delta": 1
+  },
+  {
+    "step": "score_for_natal_result",
+    "time": 1764364873.0112054,
+    "result": {
+      "score": 7,
+      "kota_swami": "Sun",
+      "kota_paala": "Sun",
+      "regions": {
+        "Stambha": [
+          13,
+          19,
+          26,
+          5
+        ],
+        "Madhya": [
+          12,
+          14,
+          19,
+          21,
+          26,
+          0,
+          5,
+          7
+        ],
+        "Prakaara": [
+          11,
+          15,
+          18,
+          22,
+          25,
+          1,
+          4,
+          8
+        ],
+        "Bahya": [
+          9,
+          10,
+          16,
+          17,
+          23,
+          24,
+          2,
+          3
+        ]
+      },
+      "details": {
+        "added": [
+          {
+            "reason": "Stambha match for kota_swami",
+            "planet": "Sun",
+            "nak": 19,
+            "value": 3
+          },
+          {
+            "reason": "Madhya match for kota_swami",
+            "planet": "Sun",
+            "nak": 19,
+            "value": 3
+          },
+          {
+            "reason": "benefic_exit",
+            "planet": "Sun",
+            "nak": 19,
+            "value": 1
+          }
+        ],
+        "subtracted": []
+      }
+    }
+  },
+  {
+    "step": "score_summary",
+    "time": 1764364873.0137966,
+    "score_a": -6,
+    "score_b": 7
+  }
+]

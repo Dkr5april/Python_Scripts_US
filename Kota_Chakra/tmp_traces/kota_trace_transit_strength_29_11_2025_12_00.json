@@ -1,0 +1,2390 @@
+[
+  {
+    "step": "geocoding_success",
+    "time": 1764381570.492955,
+    "location": "Delhi",
+    "latitude": 28.6328027,
+    "longitude": 77.2197713
+  },
+  {
+    "step": "toss_check_time",
+    "time": 1764381570.5180628,
+    "utc_time": "2025-11-29 06:30:00+00:00",
+    "lat": 28.6328027,
+    "lon": 77.2197713
+  },
+  {
+    "step": "set_sidereal_mode",
+    "time": 1764381570.522034,
+    "mode": "lahiri"
+  },
+  {
+    "step": "pada_lord_system_selected",
+    "time": 1764381570.5247507,
+    "selected": "vimshottari"
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.5261142,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 4.038899728699407,
+    "lagna_nak_index": 0,
+    "lagna_pada": 2
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.5369267,
+    "nak": 0,
+    "pada": 2,
+    "total_index": 1,
+    "lord_index": 1,
+    "lord": "Venus"
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.5416214,
+    "jd_ut": 2461008.7708333335,
+    "longs": {
+      "Sun": 223.06822539094406,
+      "Moon": 325.1419732886734,
+      "Mercury": 206.50624737873255,
+      "Venus": 213.8037586724544,
+      "Mars": 233.79357529453958,
+      "Jupiter": 90.41906306788395,
+      "Saturn": 330.93862782787414,
+      "Rahu": 319.68329037652467,
+      "Ketu": 139.68329037652467
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.5428846,
+    "janma_index": 0,
+    "regions": {
+      "Stambha": [
+        4,
+        10,
+        17,
+        24
+      ],
+      "Madhya": [
+        3,
+        5,
+        10,
+        12,
+        17,
+        19,
+        24,
+        26
+      ],
+      "Prakaara": [
+        2,
+        6,
+        9,
+        13,
+        16,
+        20,
+        23,
+        0
+      ],
+      "Bahya": [
+        0,
+        1,
+        7,
+        8,
+        14,
+        15,
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.5472891,
+    "janma_index": 0,
+    "regions": {
+      "Stambha": [
+        4,
+        10,
+        17,
+        24
+      ],
+      "Madhya": [
+        3,
+        5,
+        10,
+        12,
+        17,
+        19,
+        24,
+        26
+      ],
+      "Prakaara": [
+        2,
+        6,
+        9,
+        13,
+        16,
+        20,
+        23,
+        0
+      ],
+      "Bahya": [
+        0,
+        1,
+        7,
+        8,
+        14,
+        15,
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.5505188,
+    "planet": "Venus",
+    "nak": 16,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.5549076,
+    "pada_lord": "Venus",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.5587072,
+    "total_score": 6,
+    "reference_nak": 0
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.5666196,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 8.890175357095721,
+    "lagna_nak_index": 0,
+    "lagna_pada": 3
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.5728374,
+    "jd_ut": 2461008.78125,
+    "longs": {
+      "Sun": 223.0787737274125,
+      "Moon": 325.2830359375871,
+      "Mercury": 206.50538055233156,
+      "Venus": 213.8168531255515,
+      "Mars": 233.8012842120198,
+      "Jupiter": 90.41846048119307,
+      "Saturn": 330.9386484281258,
+      "Rahu": 319.68273837665544,
+      "Ketu": 139.68273837665544
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.5759943,
+    "nak": 0,
+    "pada": 3,
+    "total_index": 2,
+    "lord_index": 2,
+    "lord": "Sun"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.583049,
+    "janma_index": 0,
+    "regions": {
+      "Stambha": [
+        4,
+        10,
+        17,
+        24
+      ],
+      "Madhya": [
+        3,
+        5,
+        10,
+        12,
+        17,
+        19,
+        24,
+        26
+      ],
+      "Prakaara": [
+        2,
+        6,
+        9,
+        13,
+        16,
+        20,
+        23,
+        0
+      ],
+      "Bahya": [
+        0,
+        1,
+        7,
+        8,
+        14,
+        15,
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.5866804,
+    "janma_index": 0,
+    "regions": {
+      "Stambha": [
+        4,
+        10,
+        17,
+        24
+      ],
+      "Madhya": [
+        3,
+        5,
+        10,
+        12,
+        17,
+        19,
+        24,
+        26
+      ],
+      "Prakaara": [
+        2,
+        6,
+        9,
+        13,
+        16,
+        20,
+        23,
+        0
+      ],
+      "Bahya": [
+        0,
+        1,
+        7,
+        8,
+        14,
+        15,
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.5932908,
+    "planet": "Sun",
+    "nak": 16,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.5979497,
+    "pada_lord": "Sun",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.6004913,
+    "total_score": 6,
+    "reference_nak": 0
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.605006,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 13.712261533663131,
+    "lagna_nak_index": 1,
+    "lagna_pada": 1
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.6172392,
+    "jd_ut": 2461008.7916666665,
+    "longs": {
+      "Sun": 223.0893220925631,
+      "Moon": 325.42414631612826,
+      "Mercury": 206.50453364630275,
+      "Venus": 213.82994758829682,
+      "Mars": 233.80899322420746,
+      "Jupiter": 90.4178575564517,
+      "Saturn": 330.93866922365413,
+      "Rahu": 319.68218637683606,
+      "Ketu": 139.68218637683606
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.6201673,
+    "nak": 1,
+    "pada": 1,
+    "total_index": 4,
+    "lord_index": 4,
+    "lord": "Mars"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.6331444,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.6369193,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.6408615,
+    "planet": "Mars",
+    "nak": 17,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.6464496,
+    "pada_lord": "Mars",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.6496563,
+    "total_score": -1,
+    "reference_nak": 1
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.656398,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 18.49048632022869,
+    "lagna_nak_index": 1,
+    "lagna_pada": 2
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.6642234,
+    "jd_ut": 2461008.8020833335,
+    "longs": {
+      "Sun": 223.09987048649853,
+      "Moon": 325.5653044810671,
+      "Mercury": 206.50370664946928,
+      "Venus": 213.84304206034554,
+      "Mars": 233.8167023309934,
+      "Jupiter": 90.41725429392447,
+      "Saturn": 330.9386902144315,
+      "Rahu": 319.68163437696677,
+      "Ketu": 139.68163437696677
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.6660552,
+    "nak": 1,
+    "pada": 2,
+    "total_index": 5,
+    "lord_index": 5,
+    "lord": "Rahu"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.676836,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.6810386,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.684782,
+    "planet": "Rahu",
+    "nak": 23,
+    "reason": "In Unfavorable Region (Bahya)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.6938171,
+    "pada_lord": "Rahu",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.697304,
+    "total_score": -1,
+    "reference_nak": 1
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.7010138,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 23.21170660753524,
+    "lagna_nak_index": 1,
+    "lagna_pada": 3
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.7116961,
+    "jd_ut": 2461008.8125,
+    "longs": {
+      "Sun": 223.11041890863643,
+      "Moon": 325.7065104698216,
+      "Mercury": 206.50289955044502,
+      "Venus": 213.85613654129534,
+      "Mars": 233.82441153212082,
+      "Jupiter": 90.41665069327178,
+      "Saturn": 330.9387114005548,
+      "Rahu": 319.68108237711414,
+      "Ketu": 139.68108237711414
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.7147827,
+    "nak": 1,
+    "pada": 3,
+    "total_index": 6,
+    "lord_index": 6,
+    "lord": "Jupiter"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.7176895,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.7199416,
+    "janma_index": 1,
+    "regions": {
+      "Stambha": [
+        5,
+        11,
+        18,
+        25
+      ],
+      "Madhya": [
+        4,
+        6,
+        11,
+        13,
+        18,
+        20,
+        25,
+        0
+      ],
+      "Prakaara": [
+        3,
+        7,
+        10,
+        14,
+        17,
+        21,
+        24,
+        1
+      ],
+      "Bahya": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        16,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.7226021,
+    "planet": "Jupiter",
+    "nak": 6,
+    "reason": "In Favorable Region (Madhya)",
+    "delta": 2
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.730908,
+    "pada_lord": "Jupiter",
+    "score_addition": 2
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.7338662,
+    "total_score": 2,
+    "reference_nak": 1
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.7359128,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 27.86466776706827,
+    "lagna_nak_index": 2,
+    "lagna_pada": 1
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.7424362,
+    "jd_ut": 2461008.8229166665,
+    "longs": {
+      "Sun": 223.12096735931024,
+      "Moon": 325.84776433852835,
+      "Mercury": 206.50211233830868,
+      "Venus": 213.86923103118048,
+      "Mars": 233.83212082758195,
+      "Jupiter": 90.41604675474444,
+      "Saturn": 330.9387327819234,
+      "Rahu": 319.680530377245,
+      "Ketu": 139.68053037724502
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.7450624,
+    "nak": 2,
+    "pada": 1,
+    "total_index": 8,
+    "lord_index": 8,
+    "lord": "Mercury"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.7511997,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.7569408,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.7602384,
+    "planet": "Mercury",
+    "nak": 15,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.765333,
+    "pada_lord": "Mercury",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.7682338,
+    "total_score": -4,
+    "reference_nak": 2
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.7783241,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 32.44023022089281,
+    "lagna_nak_index": 2,
+    "lagna_pada": 2
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.7948782,
+    "jd_ut": 2461008.8333333335,
+    "longs": {
+      "Sun": 223.13151583898355,
+      "Moon": 325.9890661429316,
+      "Mercury": 206.50134500134885,
+      "Venus": 213.8823255310037,
+      "Mars": 233.8398302181718,
+      "Jupiter": 90.41544247833032,
+      "Saturn": 330.9387543585373,
+      "Rahu": 319.6799783773924,
+      "Ketu": 139.6799783773924
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.799599,
+    "nak": 2,
+    "pada": 2,
+    "total_index": 9,
+    "lord_index": 0,
+    "lord": "Ketu"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8124251,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8154056,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.8181098,
+    "planet": "Ketu",
+    "nak": 10,
+    "reason": "In Unfavorable Region (Bahya)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.8221183,
+    "pada_lord": "Ketu",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.8246925,
+    "total_score": -4,
+    "reference_nak": 2
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.8275776,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 36.93146504868269,
+    "lagna_nak_index": 2,
+    "lagna_pada": 4
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.8370743,
+    "jd_ut": 2461008.84375,
+    "longs": {
+      "Sun": 223.1420643467031,
+      "Moon": 326.130415919449,
+      "Mercury": 206.50059752839257,
+      "Venus": 213.89542003940926,
+      "Mars": 233.84753970282617,
+      "Jupiter": 90.4148378641155,
+      "Saturn": 330.93877613046425,
+      "Rahu": 319.6794263775397,
+      "Ketu": 139.6794263775397
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.84004,
+    "nak": 2,
+    "pada": 4,
+    "total_index": 11,
+    "lord_index": 2,
+    "lord": "Sun"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8447545,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8475308,
+    "janma_index": 2,
+    "regions": {
+      "Stambha": [
+        6,
+        12,
+        19,
+        26
+      ],
+      "Madhya": [
+        5,
+        7,
+        12,
+        14,
+        19,
+        21,
+        26,
+        1
+      ],
+      "Prakaara": [
+        4,
+        8,
+        11,
+        15,
+        18,
+        22,
+        25,
+        2
+      ],
+      "Bahya": [
+        2,
+        3,
+        9,
+        10,
+        16,
+        17,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.8500986,
+    "planet": "Sun",
+    "nak": 16,
+    "reason": "In Unfavorable Region (Bahya)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.8548875,
+    "pada_lord": "Sun",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.8575628,
+    "total_score": -4,
+    "reference_nak": 2
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.8609157,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 41.33363358521634,
+    "lagna_nak_index": 3,
+    "lagna_pada": 1
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.8709855,
+    "jd_ut": 2461008.8541666665,
+    "longs": {
+      "Sun": 223.1526128829537,
+      "Moon": 326.2718137233161,
+      "Mercury": 206.49986990808483,
+      "Venus": 213.90851455710376,
+      "Mars": 233.85524928210046,
+      "Jupiter": 90.41423291209878,
+      "Saturn": 330.9387980976952,
+      "Rahu": 319.6788743777203,
+      "Ketu": 139.67887437772032
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.8735282,
+    "nak": 3,
+    "pada": 1,
+    "total_index": 12,
+    "lord_index": 3,
+    "lord": "Moon"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8787148,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.8818276,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.8851767,
+    "planet": "Moon",
+    "nak": 24,
+    "reason": "In Unfavorable Region (Bahya)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.8893402,
+    "pada_lord": "Moon",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.896786,
+    "total_score": -9,
+    "reference_nak": 3
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.9002147,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 45.64406930341925,
+    "lagna_nak_index": 3,
+    "lagna_pada": 2
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.906337,
+    "jd_ut": 2461008.8645833335,
+    "longs": {
+      "Sun": 223.16316144816892,
+      "Moon": 326.41325960908966,
+      "Mercury": 206.49916212872668,
+      "Venus": 213.92160908443068,
+      "Mars": 233.8629589560561,
+      "Jupiter": 90.41362762240237,
+      "Saturn": 330.93882026016973,
+      "Rahu": 319.67832237781795,
+      "Ketu": 139.67832237781795
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.9085994,
+    "nak": 3,
+    "pada": 2,
+    "total_index": 13,
+    "lord_index": 4,
+    "lord": "Mars"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.9171784,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.9203935,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.9231956,
+    "planet": "Mars",
+    "nak": 17,
+    "reason": "In Unfavorable Region (Bahya)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.9326668,
+    "pada_lord": "Mars",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.9360611,
+    "total_score": -9,
+    "reference_nak": 3
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.9389682,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 49.86199007094859,
+    "lagna_nak_index": 3,
+    "lagna_pada": 3
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.9451144,
+    "jd_ut": 2461008.875,
+    "longs": {
+      "Sun": 223.17371004141881,
+      "Moon": 326.554753612381,
+      "Mercury": 206.49847417911957,
+      "Venus": 213.93470362034975,
+      "Mars": 233.8706687243405,
+      "Jupiter": 90.41302199486668,
+      "Saturn": 330.9388426178839,
+      "Rahu": 319.67777037799846,
+      "Ketu": 139.67777037799846
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.9476314,
+    "nak": 3,
+    "pada": 3,
+    "total_index": 14,
+    "lord_index": 5,
+    "lord": "Rahu"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.9566379,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.959609,
+    "janma_index": 3,
+    "regions": {
+      "Stambha": [
+        7,
+        13,
+        20,
+        0
+      ],
+      "Madhya": [
+        6,
+        8,
+        13,
+        15,
+        20,
+        22,
+        0,
+        2
+      ],
+      "Prakaara": [
+        5,
+        9,
+        12,
+        16,
+        19,
+        23,
+        26,
+        3
+      ],
+      "Bahya": [
+        3,
+        4,
+        10,
+        11,
+        17,
+        18,
+        24,
+        25
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381570.9626849,
+    "planet": "Rahu",
+    "nak": 23,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381570.9652994,
+    "pada_lord": "Rahu",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381570.9679708,
+    "total_score": -9,
+    "reference_nak": 3
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381570.9753687,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 53.98826861190566,
+    "lagna_nak_index": 4,
+    "lagna_pada": 1
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381570.9818764,
+    "jd_ut": 2461008.8854166665,
+    "longs": {
+      "Sun": 223.18425866315997,
+      "Moon": 326.69629578727046,
+      "Mercury": 206.4978060475883,
+      "Venus": 213.9477981653615,
+      "Mars": 233.87837858698578,
+      "Jupiter": 90.41241602980266,
+      "Saturn": 330.9388651709044,
+      "Rahu": 319.6772183781624,
+      "Ketu": 139.67721837816242
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381570.984415,
+    "nak": 4,
+    "pada": 1,
+    "total_index": 16,
+    "lord_index": 7,
+    "lord": "Saturn"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.9949267,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381570.9984536,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381571.0015473,
+    "planet": "Saturn",
+    "nak": 24,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.010535,
+    "pada_lord": "Saturn",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.0139344,
+    "total_score": -1,
+    "reference_nak": 4
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381571.017418,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 58.02518104706666,
+    "lagna_nak_index": 4,
+    "lagna_pada": 2
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381571.0235186,
+    "jd_ut": 2461008.8958333335,
+    "longs": {
+      "Sun": 223.1948073133858,
+      "Moon": 326.83788618111225,
+      "Mercury": 206.49715772272108,
+      "Venus": 213.96089271966494,
+      "Mars": 233.88608854407744,
+      "Jupiter": 90.411809726965,
+      "Saturn": 330.9388879192355,
+      "Rahu": 319.6766663783098,
+      "Ketu": 139.6766663783098
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381571.0287821,
+    "nak": 4,
+    "pada": 2,
+    "total_index": 17,
+    "lord_index": 8,
+    "lord": "Mercury"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.0343866,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.0372736,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.0404165,
+    "pada_lord": "Mercury",
+    "score_addition": 0
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.0433834,
+    "total_score": 0,
+    "reference_nak": 4
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381571.0461779,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 61.97615410990434,
+    "lagna_nak_index": 4,
+    "lagna_pada": 3
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381571.05232,
+    "jd_ut": 2461008.90625,
+    "longs": {
+      "Sun": 223.20535599208478,
+      "Moon": 326.97952484104405,
+      "Mercury": 206.49652919272,
+      "Venus": 213.9739872830655,
+      "Mars": 233.89379859572438,
+      "Jupiter": 90.41120308658394,
+      "Saturn": 330.93891086279297,
+      "Rahu": 319.6761143784571,
+      "Ketu": 139.6761143784571
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381571.0575786,
+    "nak": 4,
+    "pada": 3,
+    "total_index": 18,
+    "lord_index": 0,
+    "lord": "Ketu"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.0632393,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.066321,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381571.0743563,
+    "planet": "Ketu",
+    "nak": 10,
+    "reason": "In Unfavorable Region (Prakaara)",
+    "delta": -1
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.0791209,
+    "pada_lord": "Ketu",
+    "score_addition": -1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.082717,
+    "total_score": -1,
+    "reference_nak": 4
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381571.0874572,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 65.84552625636985,
+    "lagna_nak_index": 4,
+    "lagna_pada": 4
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381571.0959904,
+    "jd_ut": 2461008.9166666665,
+    "longs": {
+      "Sun": 223.2159046992635,
+      "Moon": 327.12121181373885,
+      "Mercury": 206.49592044622335,
+      "Venus": 213.9870818555122,
+      "Mars": 233.90150874179392,
+      "Jupiter": 90.41059610870111,
+      "Saturn": 330.93893400158737,
+      "Rahu": 319.6755623786046,
+      "Ketu": 139.67556237860458
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381571.099021,
+    "nak": 4,
+    "pada": 4,
+    "total_index": 19,
+    "lord_index": 1,
+    "lord": "Venus"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.108524,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.111797,
+    "janma_index": 4,
+    "regions": {
+      "Stambha": [
+        8,
+        14,
+        21,
+        1
+      ],
+      "Madhya": [
+        7,
+        9,
+        14,
+        16,
+        21,
+        23,
+        1,
+        3
+      ],
+      "Prakaara": [
+        6,
+        10,
+        13,
+        17,
+        20,
+        24,
+        0,
+        4
+      ],
+      "Bahya": [
+        4,
+        5,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381571.1148121,
+    "planet": "Venus",
+    "nak": 16,
+    "reason": "In Favorable Region (Madhya)",
+    "delta": 2
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.117803,
+    "pada_lord": "Venus",
+    "score_addition": 2
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.1252828,
+    "total_score": 2,
+    "reference_nak": 4
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381571.12883,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 69.63832826895874,
+    "lagna_nak_index": 5,
+    "lagna_pada": 1
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381571.135163,
+    "jd_ut": 2461008.9270833335,
+    "longs": {
+      "Sun": 223.2264534353695,
+      "Moon": 327.26294715200646,
+      "Mercury": 206.49533147116415,
+      "Venus": 214.00017643784838,
+      "Mars": 233.90921898278341,
+      "Jupiter": 90.40998879320063,
+      "Saturn": 330.93895733568735,
+      "Rahu": 319.67501037875195,
+      "Ketu": 139.67501037875195
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381571.1414888,
+    "nak": 5,
+    "pada": 1,
+    "total_index": 20,
+    "lord_index": 2,
+    "lord": "Sun"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.1467617,
+    "janma_index": 5,
+    "regions": {
+      "Stambha": [
+        9,
+        15,
+        22,
+        2
+      ],
+      "Madhya": [
+        8,
+        10,
+        15,
+        17,
+        22,
+        24,
+        2,
+        4
+      ],
+      "Prakaara": [
+        7,
+        11,
+        14,
+        18,
+        21,
+        25,
+        1,
+        5
+      ],
+      "Bahya": [
+        5,
+        6,
+        12,
+        13,
+        19,
+        20,
+        26,
+        0
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.1501722,
+    "janma_index": 5,
+    "regions": {
+      "Stambha": [
+        9,
+        15,
+        22,
+        2
+      ],
+      "Madhya": [
+        8,
+        10,
+        15,
+        17,
+        22,
+        24,
+        2,
+        4
+      ],
+      "Prakaara": [
+        7,
+        11,
+        14,
+        18,
+        21,
+        25,
+        1,
+        5
+      ],
+      "Bahya": [
+        5,
+        6,
+        12,
+        13,
+        19,
+        20,
+        26,
+        0
+      ]
+    }
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.1528635,
+    "pada_lord": "Sun",
+    "score_addition": 0
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.1564913,
+    "total_score": 7,
+    "reference_nak": 5
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764381571.1593761,
+    "lat": 28.6328027,
+    "lon": 77.2197713,
+    "lagna_long": 73.3600898310106,
+    "lagna_nak_index": 5,
+    "lagna_pada": 3
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764381571.1693356,
+    "jd_ut": 2461008.9375,
+    "longs": {
+      "Sun": 223.23700219946306,
+      "Moon": 327.40473088915866,
+      "Mercury": 206.49476225615763,
+      "Venus": 214.01327102859102,
+      "Mars": 233.91692931773534,
+      "Jupiter": 90.4093811402367,
+      "Saturn": 330.9389808650472,
+      "Rahu": 319.6744583788994,
+      "Ketu": 139.67445837889937
+    }
+  },
+  {
+    "step": "vimshottari_pada_lord",
+    "time": 1764381571.1721437,
+    "nak": 5,
+    "pada": 3,
+    "total_index": 22,
+    "lord_index": 4,
+    "lord": "Mars"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.1771066,
+    "janma_index": 5,
+    "regions": {
+      "Stambha": [
+        9,
+        15,
+        22,
+        2
+      ],
+      "Madhya": [
+        8,
+        10,
+        15,
+        17,
+        22,
+        24,
+        2,
+        4
+      ],
+      "Prakaara": [
+        7,
+        11,
+        14,
+        18,
+        21,
+        25,
+        1,
+        5
+      ],
+      "Bahya": [
+        5,
+        6,
+        12,
+        13,
+        19,
+        20,
+        26,
+        0
+      ]
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764381571.1807134,
+    "janma_index": 5,
+    "regions": {
+      "Stambha": [
+        9,
+        15,
+        22,
+        2
+      ],
+      "Madhya": [
+        8,
+        10,
+        15,
+        17,
+        22,
+        24,
+        2,
+        4
+      ],
+      "Prakaara": [
+        7,
+        11,
+        14,
+        18,
+        21,
+        25,
+        1,
+        5
+      ],
+      "Bahya": [
+        5,
+        6,
+        12,
+        13,
+        19,
+        20,
+        26,
+        0
+      ]
+    }
+  },
+  {
+    "step": "pada_lord_check",
+    "time": 1764381571.1836734,
+    "planet": "Mars",
+    "nak": 17,
+    "reason": "In Favorable Region (Madhya)",
+    "delta": 2
+  },
+  {
+    "step": "dynamic_pada_score_added",
+    "time": 1764381571.188343,
+    "pada_lord": "Mars",
+    "score_addition": 2
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764381571.191238,
+    "total_score": 9,
+    "reference_nak": 5
+  }
+]

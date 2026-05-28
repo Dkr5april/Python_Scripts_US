@@ -1,0 +1,786 @@
+{
+  "rasi_karakatwas": {
+    "Aries (మేషం)": {
+      "ruler": "Mars (కుజుడు)",
+      "element": "Fire (అగ్ని తత్వం)",
+      "nature": "Movable (చర రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "East (తూర్పు దిక్కు), Quadruped (చతుష్పాద), Night-strong (రాత్రి బల రాశి), Prishthodaya (పృష్ఠోదయ రాశి), Red-complexioned (రక్త వర్ణం)",
+      "body_parts": [
+        "Head (శిరస్సు)", 
+        "Brain (మెదడు)", 
+        "Skull bones (కపాలం)", 
+        "Facial bones (ముఖ శల్యములు)"
+      ],
+      "significations": [
+        "Courage, valor, and adventurous spirit (సాహసము, పరాక్రమము)",
+        "Hills, mountains, and rocky terrains (పర్వతములు, కొండలు)",
+        "Forests, jungles, and wild uncultivated lands (అడవులు, అరణ్యములు)",
+        "Places where sheep, goats, and rams reside (గొర్రెలు, మేకలు తిరిగే స్థలాలు)",
+        "Hidden treasures, gold mines, and metal deposits (భూగర్భ నిధులు, బంగారు గనులు)",
+        "Fierce, aggressive, and short-tempered nature (ఉగ్ర స్వభావము, కోపము)",
+        "Thieves, bandits, and hiding places for outlaws (దొంగలు, వారి నివాస స్థలాలు)",
+        "Army barracks, weapons manufacturing, and battlefields (యుద్ధ భూమి, ఆయుధశాలలు)",
+        "Fires, brick kilns, and volcanic regions (అగ్ని ప్రమాదములు, ఇటుక బట్టీలు)",
+        "Sovereign power, leadership, and commanding roles (అధికారము, నాయకత్వ లక్షణాలు)"
+      ]
+    },
+    "Taurus (వృషభం)": {
+      "ruler": "Venus (శుక్రుడు)",
+      "element": "Earth (భూమి తత్వం)",
+      "nature": "Fixed (స్థిర రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "South (దక్షిణ దిక్కు), Quadruped (చతుష్పాద), Night-strong (రాత్రి బల రాశి), Prishthodaya (పృష్ఠోదయ రాశి), White/Pale complexioned (శ్వేత వర్ణం)",
+      "body_parts": [
+        "Face (ముఖము)", 
+        "Neck (మెడ)", 
+        "Throat (గొంతు)", 
+        "Vocal cords (స్వర తంతువులు)",
+        "Eyes (నేత్రములు)"
+      ],
+      "significations": [
+        "Agriculture, farming, and tilling fields (వ్యవసాయము, భూమి సాగు)",
+        "Cattle, cows, bulls, and dairy farms (గోవులు, ఎద్దులు, పాడి పరిశ్రమ)",
+        "Accumulated wealth, fixed assets, and banking (ధన నిల్వలు, బ్యాంకులు)",
+        "Luxuries, fine dining, clothes, and perfumes (భోగ వస్తువులు, వస్త్రములు, సుగంధ ద్రవ్యాలు)",
+        "Stability, stubbornness, and unyielding persistence (స్థిరత్వము, మొండితనము)",
+        "Grassy meadows, lawns, and beautiful gardens (పచ్చిక బయళ్ళు, తోటలు)",
+        "Beautiful women, marriage functions, and family ties (సుందర స్త్రీలు, వివాహ శుభకార్యములు)",
+        "Music, singing, fine arts, and voice culture (సంగీతము, గానకళ, లలిత కళలు)",
+        "Grains, food storage, and grocery centers (ధాన్యపు కొట్లు, ఆహార నిల్వలు)",
+        "Societal status, prestige, and material security (సామాజిక గౌరవము, ప్రాపంచిక సుఖాలు)"
+      ]
+    },
+    "Gemini (మిథునం)": {
+      "ruler": "Mercury (బుధుడు)",
+      "element": "Air (వాయు తత్వం)",
+      "nature": "Dual (ద్విస్వభావ రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "West (పడమర దిక్కు), Biped/Human (ద్విపాద/మానవ రాశి), Day-strong (పగటి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Greenish complexioned (హరిత వర్ణం)",
+      "body_parts": [
+        "Shoulders (భుజములు)", 
+        "Arms and hands (చేతులు, హస్తములు)", 
+        "Upper chest (రొమ్ము భాగము)", 
+        "Respiratory system and bronchial tubes (శ్వాసనాళాలు)"
+      ],
+      "significations": [
+        "Communication, writing, literature, and journalism (వార్తా ప్రసారము, రచనలు, పత్రికలు)",
+        "Gambling dens, casinos, and entertainment hubs (జూదశాలలు, వినోద కేంద్రాలు)",
+        "Intellect, analytical thinking, and multi-tasking (బుద్ధి కుశలత, విశ్లేషణ సామర్థ్యం)",
+        "Couples, sexual intimacy, and physical partnerships (మిథునములు, రతీ సుఖం)",
+        "Artistic studios, libraries, and educational institutions (చిత్రలేఖన శాలలు, గ్రంథాలయాలు)",
+        "Bedrooms, lounges, and cozy indoor settings (శయన మందిరములు, సుఖవంతమైన గదులు)",
+        "Debates, arguments, logic, and public speaking (వాదోపవాదములు, తర్క శాస్త్రము)",
+        "Brokers, business contracts, and trade middle-men (దళారులు, వ్యాపార ఒప్పందాలు)",
+        "Playgrounds, parks, and recreational walks (క్రీడా మైదానములు, విహార స్థలాలు)",
+        "Dual nature, indecisiveness, and adaptable behavior (ద్వంద్వ స్వభావము, సమయానుకూల మార్పు)"
+      ]
+    },
+    "Cancer (కర్కాటకం)": {
+      "ruler": "Moon (చంద్రుడు)",
+      "element": "Water (జలం తత్వం)",
+      "nature": "Movable (చర రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "North (ఉత్తర దిక్కు), Multi-footed/Centipede (బహుపాద రాశి), Night-strong (రాత్రి బల రాశి), Prishthodaya (పృష్ఠోదయ రాశి), Pinkish/Pale red (పాటల వర్ణం)",
+      "body_parts": [
+        "Heart (హృదయము)", 
+        "Chest cavity (ఛాతి)", 
+        "Lungs (ఊపిరితిత్తులు)", 
+        "Stomach lining (జీర్ణాశయ పైభాగము)",
+        "Breasts (స్తనములు)"
+      ],
+      "significations": [
+        "Watery places, rivers, canals, lakes, and oceans (నదులు, చెరువులు, సముద్రములు)",
+        "Paddy fields, wetlands, and agricultural canals (వరి పొలాలు, బురద నేలలు, కాలువలు)",
+        "Deep emotions, maternal love, and psychological intuition (మానసిక భావనలు, మాతృత్వ ప్రేమ)",
+        "Pearls, conch shells, and multicolored water gems (ముత్యములు, శంఖములు, జల రత్నాలు)",
+        "Public gatherings, masses, and changing popularity (ప్రజా సమూహములు, కీర్తి ప్రతిష్టల మార్పులు)",
+        "Vargottama stability for lunar energy (చంద్రుని వర్గోత్తమ స్థిరత్వము)",
+        "Chasms, hidden underground water wells (భూగర్భ జల వనరులు, ఊట బావులు)",
+        "Nurturing, hospitality, food catering, and nursing (పోషణ, ఆతిథ్యం, నర్సింగ్)",
+        "Vehicles, travel comforts, and home security (వాహన సుఖము, గృహ వాతావరణం)",
+        "Shyness, protective shell, and high attachment to lineage (సిగ్గు, రక్షణ వలయము, వంశాభిమానం)"
+      ]
+    },
+    "Leo (సింహం)": {
+      "ruler": "Sun (సూర్యుడు)",
+      "element": "Fire (అగ్ని తత్వం)",
+      "nature": "Fixed (స్థిర రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "East (తూర్పు దిక్కు), Quadruped (చతుష్పాద), Day-strong (పగటి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Pale-white/Yellowish (పాండు వర్ణం)",
+      "body_parts": [
+        "Upper belly and stomach (ఉదరము, జీర్ణాశయము)", 
+        "Spine and back (వెన్నుముక, వెనుక భాగము)", 
+        "Heart muscles (హృదయ కండరాలు)"
+      ],
+      "significations": [
+        "Deep forests, mountain caves, and den of wild beasts (దట్టమైన అరణ్యములు, గిరి గుహలు)",
+        "Royal authority, government courts, and palaces (రాజ్యాధికారము, ప్రభుత్వ కార్యాలయాలు, రాజభవనాలు)",
+        "Power, majesty, leadership, and absolute command (ప్రభుత్వ ముద్ర, పట్టుదల, గంభీరత)",
+        "Gold, precious gems, and royal treasures (బంగారము, విలువైన మాణిక్యములు)",
+        "High ambition, ego, and unyielding self-respect (ఉన్నతాశయాలు, అహంకారము, ఆత్మగౌరవము)",
+        "Hunting grounds, fortresses, and high plateaus (వేట స్థలాలు, కోటలు, ఎత్తైన పీఠభూములు)",
+        "Generosity mixed with authoritarian display (దాతృత్వము, శాసించే గుణము)",
+        "Political strategies, ministers, and statesmanship (రాజకీయ వ్యూహాలు, మంత్రులు)",
+        "Spiritual power derived from solar energy (మంత్ర శక్తి, తేజస్సు)",
+        "Solitary nature, independence, and dislike for subordination (స్వతంత్ర జీవనశైలి, దాస్యం అంగీకరించకపోవడం)"
+      ]
+    },
+    "Virgo (కన్య)": {
+      "ruler": "Mercury (బుధుడు)",
+      "element": "Earth (భూమి తత్వం)",
+      "nature": "Dual (ద్విస్వభావ రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "South (దక్షిణ దిక్కు), Biped/Human (ద్విపాద/మానవ రాశి), Day-strong (పగటి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Multi-colored/Variegated (చిత్ర వర్ణం)",
+      "body_parts": [
+        "Hip and waist area (కటి భాగము, నడుము)", 
+        "Lower abdomen (పొత్తికడుపు)", 
+        "Intestines and digestive tract (ప్రేగులు, జీర్ణ వ్యవస్థ)",
+        "Appendix (అపెండిక్స్)"
+      ],
+      "significations": [
+        "Green pastures, manicured lawns, and crop-laden fields (పచ్చని గడ్డి భూములు, పంట పొలాలు)",
+        "Artistic craft workshops, design studios, and textiles (కళాఖండాల తయారీ శాలలు, వస్త్రాలంకరణ)",
+        "High analytical intelligence, accounting, and audit (గణితము, ఆడిటింగ్, విశ్లేషణ బుద్ధి)",
+        "Business trade houses, mercantile shops, and grain markets (వ్యాపార స్థలాలు, ధాన్యపు అంగళ్ళు)",
+        "Purity, virginity, critical vetting, and flaw-finding (పవిత్రత, తప్పులను వెతకడం, విమర్శనాత్మక పరిశీలన)",
+        "Medicinal herbs, pharmacies, and healing fields (మూలికలు, ఔషధశాలలు, వైద్య రంగం)",
+        "Craftsmanship, complex mechanics, and manual dexterity (హస్తకళలు, సూక్ష్మ యంత్రాలు)",
+        "Courtesans, dance halls, and cultural centers (నాట్యశాలలు, లలిత కళా ప్రదర్శనలు)",
+        "Intellectual litigation, documentation, and drafting (న్యాయపరమైన పత్రాల తయారీ, రాతకోతలు)",
+        "Service sector, daily employment, and problem troubleshooting (ఉద్యోగ వృత్తి, సమస్యల పరిష్కారం)"
+      ]
+    },
+    "Libra (తుల)": {
+      "ruler": "Venus (శుక్రుడు)",
+      "element": "Air (వాయు తత్వం)",
+      "nature": "Movable (చర రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "West (పడమర దిక్కు), Biped/Human (ద్విపాద/మానవ రాశి), Day-strong (పగటి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Black/Dark complexioned (కృష్ణ వర్ణం)",
+      "body_parts": [
+        "Groin area (వెంక భాగము)", 
+        "Kidneys (మూత్రపిండాలు)", 
+        "Internal reproductive glands (అంతర్గత జననేంద్రియ గ్రంధులు)",
+        "Lower belly structure (నాభి కింది భాగము)"
+      ],
+      "significations": [
+        "Marketplaces, commercial trade centers, and shopping districts (అంగడి వీధులు, వర్తక కేంద్రాలు)",
+        "Scales, balances, weighbridges, and measurements (త్రాసు, కొలతలు, న్యాయ తీర్పులు)",
+        "International business, joint ventures, and partnerships (అంతర్జాతీయ వ్యాపారం, భాగస్వామ్యాలు)",
+        "Townships, urban planning, and public assembly halls (పట్టణములు, సభామందిరములు)",
+        "Public relations, diplomacy, and corporate negotiations (రాయబారము, ప్రజా సంబంధాలు, లౌక్యం)",
+        "Aesthetic balancing, design, fashion, and luxury trade (అలంకార వస్తువులు, ఫ్యాషన్ వ్యాపారం)",
+        "Custom houses, revenue collector offices, and trade routes (సుంకముల వసూలు కేంద్రాలు, వర్తక మార్గాలు)",
+        "Sociability, balance of mind, and seeking harmony (సమతుల్యత, శాంతి ప్రియత్వం)",
+        "Exchanges, stock brokerages, and monetary conversions (ద్రవ్య మార్పిడి, షేర్ మార్కెట్ స్థావరాలు)",
+        "Entertainment industry, theatres, and concert stages (వినోద పరిశ్రమ, నాటక రంగాలు)"
+      ]
+    },
+    "Scorpio (వృశ్చికం)": {
+      "ruler": "Mars (కుజుడు)",
+      "element": "Water (జలం తత్వం)",
+      "nature": "Fixed (స్థిర రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "North (ఉత్తర దిక్కు), Multi-footed/Centipede (బహుపాద రాశి), Night-strong (రాత్రి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Golden/Reddish-brown (పింగళ వర్ణం)",
+      "body_parts": [
+        "External genitalia and reproductive organs (బాహ్య జననేంద్రియములు)", 
+        "Excretory system and rectum (గుద భాగము, మల విసర్జన నాళాలు)", 
+        "Pelvic bones (కటి వలయ శల్యములు)"
+      ],
+      "significations": [
+        "Deep holes, cavities, underground tunnels, and pits (భూగర్భ రంధ్రములు, సొరంగాలు, గుంతలు)",
+        "Poisonous places, reptile nests, and snake burrows (పాముల పుట్టలు, విషపూరిత స్థలాలు)",
+        "Secrecy, deep investigative research, and hidden truths (రహస్యాలు, పరిశోధన, గూఢచర్యము)",
+        "Occult sciences, tantra, alchemy, and esoteric knowledge (మంత్ర తంత్రాలు, గూఢ విద్యలు, జ్యోతిష పరిశోధన)",
+        "Swamps, marshes, stagnant muddy waters, and sewers (బురద గుంటలు, డ్రైనేజీలు, మురికి కాలువలు)",
+        "Sudden transformations, crisis management, and surgeries (అనుకోని మార్పులు, శస్త్రచికిత్సలు)",
+        "Chemical laboratories, toxic wastes, and heavy minerals (రసాయన శాలలు, విషపదార్థాల నిల్వలు)",
+        "Resentment, strategic revenge, and absolute emotional control (పగ, పట్టుదల, భావోద్వేగాల నిగ్రహం)",
+        "Cremation grounds, burial sites, and desolation (శ్మశాన వాటికలు, పాడుబడిన ప్రదేశాలు)",
+        "Unearned wealth, inheritances, wills, and insurance claims (విల్లులు, భీమా ధనము, పిత్రార్జిత ఆస్తుల వివాదాలు)"
+      ]
+    },
+    "Sagittarius (ధనస్సు)": {
+      "ruler": "Jupiter (గురుడు)",
+      "element": "Fire (అగ్ని తత్వం)",
+      "nature": "Dual (ద్విస్వభావ రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "East (తూర్పు దిక్కు), Biped initially / Quadruped later (మొదట ద్విపాద - తరువాత చతుష్పాద), Night-strong (రాత్రి బల రాశి), ఎత్తైన రాశి, Golden/Yellow complexioned (పిత వర్ణం)",
+      "body_parts": [
+        "Thighs (తొడలు)", 
+        "Hip joints (కీళ్ళు, నడుము సంధులు)", 
+        "Arteries and arterial blood flow (ధమనులు)"
+      ],
+      "significations": [
+        "Royal courts, legislative assemblies, and ministries (రాజసభలు, శాసనసభలు, సచివాలయాలు)",
+        "Weapons depots, military strategy rooms, and armories (ఆయుధాగారములు, సైనిక వ్యూహశాలలు)",
+        "Chariots, high-end defensive vehicles, and parades (రథములు, అధికారిక వాహనములు)",
+        "Sacred places, temples, ashrams, and universities (దేవాలయాలు, పుణ్యక్షేత్రాలు, ఉన్నత విద్యాపీఠాలు)",
+        "Justice, law courts, judgments, and righteousness (న్యాయస్థానాలు, తీర్పులు, ధర్మశాస్త్రము)",
+        "Religious sacrifices, rituals, and corporate charities (యజ్ఞ యాగాదులు, దానధర్మాలు)",
+        "Philosophical absolute truth, preaching, and counseling (వేదాంతము, బోధన, సలహాలు ఇవ్వడం)",
+        "Archery, target sports, long-distance expeditions (బాణవిద్య, సుదూర ప్రయాణాలు)",
+        "Horses, stables, and royal studs (గుర్రములు, అశ్వశాలలు)",
+        "Optimism, expansive thinking, and divine grace (ఆశావాదం, విస్తృత ఆలోచనా సరళి, దైవానుగ్రహం)"
+      ]
+    },
+    "Capricorn (మకరం)": {
+      "ruler": "Saturn (శని)",
+      "element": "Earth (భూమి తత్వం)",
+      "nature": "Movable (చర రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "South (దక్షిణ దిక్కు), Quadruped/Aquatic mixture (జలచర, చతుష్పాద మిశ్రమం), Night-strong (రాత్రి బల రాశి), Prishthodaya (పృష్ఠోదయ రాశి), Dusky/Grey complexioned (కపిల వర్ణం)",
+      "body_parts": [
+        "Knees (మోకాళ్ళు)", 
+        "Knee caps (మోకాలి చిప్పలు)", 
+        "Connective tissues and joints (కీళ్ళు, బంధన కండరాలు)"
+      ],
+      "significations": [
+        "Rivers, riverbeds, fast-moving streams, and marshes (నదీ ప్రవాహ ప్రాంతాలు, బురద నేలలు)",
+        "Lumberyards, forests, and timber collection zones (అడవులు, కలప డిపోలు, అటవీ ఉత్పత్తులు)",
+        "Hard physical labor, factories, and construction sites (కఠిన శ్రమ, కర్మాగారాలు, నిర్మాణ స్థలాలు)",
+        "Stony areas, quarries, and rocky waste lands (రాతి గనులు, కొండ ప్రాంతాలు, నిరుపయోగ భూములు)",
+        "Perseverance, delayed results, and structural discipline (పట్టుదల, ఆలస్యము, క్రమశిక్షణ)",
+        "Water tanks, reservoirs, and public water works (నీటి నిల్వ తొట్లు, జలాశయాలు)",
+        "Miserly habits, extreme calculation, and dry temperament (లోభత్వము, లెక్కలు వేయడం, కఠిన స్వభావము)",
+        "Agricultural lands focused on root crops (దుంపలు పండే భూములు, కృష్ణ వలయం)",
+        "Government administrative execution, bureaucracy (ప్రభుత్వ నిర్వాహక యంత్రాంగం, నిబంధనలు)",
+        "Old buildings, ruins, and historical structures (పాత భవనాలు, పురాతన కట్టడాలు)"
+      ]
+    },
+    "Aquarius (కుంభం)": {
+      "ruler": "Saturn (శని)",
+      "element": "Air (వాయు తత్వం)",
+      "nature": "Fixed (స్థిర రాశి)",
+      "gender": "Male (పురుష రాశి)",
+      "appearance_and_direction": "West (పడమర దిక్కు), Biped/Human (ద్విపాద/మానవ రాశి), Day-strong (పగటి బల రాశి), Shirshodaya (శీర్షోదయ రాశి), Deep brown/Dusky (బభ్రు వర్ణం)",
+      "body_parts": [
+        "Calves (పిక్కలు)", 
+        "Ankles (మడమలు, చీలమండలు)", 
+        "Circulatory system channels (రక్త ప్రసరణ నాళాలు)"
+      ],
+      "significations": [
+        "Pot, water containers, vessels, and empty jars (కుంభము, నీటి పాత్రలు, ఖాళీ ఘటములు)",
+        "Gambling dens, underground clubs, and secretive meeting places (జూద గృహాలు, రహస్య సమావేశ స్థలాలు)",
+        "Deep philosophical, scientific, or highly innovative thought (తీవ్రమైన ఆలోచన, వైజ్ఞానిక పరిశోధన)",
+        "Marketplaces dealing with heavy metals and dark hardware (భారీ లోహాల మార్కెట్, ఇనుప వస్తువుల వ్యాపారం)",
+        "Saturnine internal strength, hidden resilience (శని యొక్క అంతర్గత స్థిరత్వం, ఓర్పు)",
+        "Large organizations, global networks, and assemblies (పెద్ద సంస్థలు, ప్రపంచ నెట్‌వర్క్‌లు, సంఘాలు)",
+        "Avarice, hoarding resources, and dry emotional detachment (ధన దాహం, లోభ గుణము, వైరాగ్య భావన)",
+        "Artisans working with pottery, glass, and clay (కుండలు, గాజు వస్తువులు తయారుచేసే స్థలాలు)",
+        "Exotic inventions, space, astrology, and future prediction data (వింత ఆవిష్కరణలు, అంతరిక్షం, జ్యోతిష శాస్త్ర పరిశోధన)",
+        "Social execution, mass movements, and union management (ప్రజా ఉద్యమాలు, కార్మిక సంఘాల నిర్వహణ)"
+      ]
+    },
+    "Pisces (మీనం)": {
+      "ruler": "Jupiter (గురుడు)",
+      "element": "Water (జలం తత్వం)",
+      "nature": "Dual (ద్విస్వభావ రాశి)",
+      "gender": "Female (స్త్రీ రాశి)",
+      "appearance_and_direction": "North (ఉత్తర దిక్కు), Footless/Aquatic (పాదరహిత, జలచర రాశి), Day-strong (పగటి బల రాశి), Ubhayodaya (ఉభయోదయ రాశి), Clear/Crystal color (స్వచ్ఛ వర్ణం)",
+      "body_parts": [
+        "Feet (పాదములు)", 
+        "Toes (కాలి వేళ్ళు)", 
+        "Lymphatic system (లసిక వ్యవస్థ)"
+      ],
+      "significations": [
+        "Deep oceans, seas, and untamed water expanses (మహాసముద్రాలు, అగాధ జలాశయాలు)",
+        "Holy shrines, pilgrimage towns, and remote temples (పుణ్యక్షేత్రాలు, పవిత్ర నదీ తీరాలు, దూర క్షేత్రాలు)",
+        "Spiritual liberation, Moksha, and isolation states (మోక్షము, ముక్తి మార్గము, ఒంటరితనం)",
+        "Fish, whales, and all aquatic life forms (చేపలు, తిమింగలాలు, జలచర జీవులు)",
+        "Hospitals, sanctuaries, asylums, and confinement blocks (ఆసుపత్రులు, బందీఖానాలు, ఏకాంత నివాసాలు)",
+        "Expenditures, heavy donations, and letting go of wealth (వ్యయములు, దానధర్మాలు, త్యాగము)",
+        "Dream worlds, meditation chambers, and sleep science (స్వప్న లోకం, ధ్యాన మందిరాలు, నిద్ర సుఖం)",
+        "Foreign lands, completely alien environments (దూరదేశ నివాసము, అపరిచిత ప్రాంతాలు)",
+        "Divine wisdom, absolute cosmic truth, and timeless texts (దైవిక జ్ఞానము, బ్రహ్మ విద్య, పురాణ పరిశోధన)",
+        "Quiet resignation, ultimate peace, and dissolution of identity (ప్రశాంతత, లయ స్థానము, అహంకారం వీడటం)"
+      ]
+    }
+  }
+}
+
+"bhava_karakatwas": {
+    "1st House (ప్రథమ భావము - లగ్నము)": {
+      "technical_names": ["Lagna (లగ్నము)", "Tanu Bhava (తను భావము)", "Kalpa (కల్ప)", "Udaya (ఉదయ)"],
+      "body_parts": [
+        "Whole physical body (శరీరము)", 
+        "Head and brain structure (శిరస్సు)", 
+        "Physical appearance and skin complexion (వర్ణము, రూపము)", 
+        "Limbs and hair (అవయవములు, కేశములు)"
+      ],
+      "significations": [
+        "Longevity and life span (ఆయుస్సు, జీవన కాలము)",
+        "Core identity, ego, and self-expression (ఆత్మ స్వరూపము, స్వభావము)",
+        "Happiness, comforts, and personal well-being (సుఖము, సంతోషము)",
+        "Mental disposition, thoughts, and core character (మనఃప్రవృత్తి, శీలము)",
+        "Birth, place of birth, and early childhood (జననము, శైశవ దశ)",
+        "Fame, reputation, and public recognition (కీర్తి ప్రతిష్టలు, యశస్సు)",
+        "Strength, vitality, physical energy, and stamina (బలము, ఉత్సాహము, దేహ దార్ఢ్యము)",
+        "Victory over challenges and personal endeavors (విజయము, కార్యసాధన)",
+        "Dignity, self-respect, and personal honor (గౌరవము, ఆత్మగౌరవము)",
+        "Decorum, standard of living, and lifestyle patterns (జీవన శైలి, వర్తనము)",
+        "Skin textures, scars, or prominent birthmarks (చర్మము, శరీర గుర్తులు)",
+        "Stature, height, and overall physical build (పొడవు, శారీరక ఆకృతి)",
+        "Peace of mind and freedom from anxieties (శాంతి, నెమ్మది)",
+        "The capacity to endure pain or physical hardships (సహనము, కష్ట సహిష్ణుత)",
+        "Direct control over the baseline of the entire horoscope (జాతక మూలస్తంభము)"
+      ]
+    },
+    "2nd House (ద్వితీయ భావము)": {
+      "technical_names": ["Dhana Bhava (ధన భావము)", "Vak Bhava (వాక్ భావము)", "Kosa (కోశ)", "Nayana (నయన)"],
+      "body_parts": [
+        "Face (ముఖము)", 
+        "Right eye (కుడి కన్ను)", 
+        "Teeth, tongue, and throat (దంతములు, జిహ్వ, గొంతు)", 
+        "Speech organs and mouth (నోరు, వాక్కు)"
+      ],
+      "significations": [
+        "Accumulated wealth, money deposits, and cash assets (ధనము, నిల్వ ధనము, బ్యాంక్ బ్యాలెన్స్)",
+        "Speech, eloquence, tone of voice, and truthfulness (వాక్కు, ఉపన్యాస కళ, మధుర భాషణం)",
+        "Family, domestic lineage, and immediate household dependents (కుటుంబము, వంశవృద్ది)",
+        "Food intake, eating habits, taste, and dietary preferences (ఆహారము, భోజన ప్రియత్వం, రుచి)",
+        "Precious metals, gold, silver, gems, and jewelry (బంగారము, వెండి, నవరత్నాలు, ఆభరణాలు)",
+        "Learning, primary education, and absorption of knowledge (విద్య, ప్రారంభ విద్య, ధారణా శక్తి)",
+        "Facial expressions, beauty, and cosmetic appearance (ముఖ వర్చస్సు, లావణ్యము)",
+        "Documents, bonds, promissory notes, and financial archives (పత్రములు, కోశాగారము)",
+        "Lying, deceptive speech, or harsh words if afflicted (అసత్య భాషణము, పరుష పదజాలము)",
+        "Purchase and sale of properties, commercial trade values (క్రయ విక్రయములు, వ్యాపార లావాదేవీలు)",
+        "Liberal spending capacity or tight hoarding habits (దాతృత్వము లేదా లోభత్వము)",
+        "Nourishment of eyes and facial sensory organs (నేత్ర రక్షణ, ముఖేంద్రియములు)",
+        "Support received from family elders and lineage patterns (పూర్వీకుల మద్దతు)",
+        "Maraka capability - potential to inflict exit or physical illness (మారకత్వము)"
+      ]
+    },
+    "3rd House (తృతీయ భావము)": {
+      "technical_names": ["Sahaja Bhava (సహజ భావము)", "Bhratri Bhava (భ్రాతృ భావము)", "Vikrama (విక్రమ)", "Dhairya (ధైర్య)"],
+      "body_parts": [
+        "Shoulders (భుజములు)", 
+        "Arms, hands, and fingers (చేతులు, వేళ్ళు)", 
+        "Right ear (కుడి చెవి)", 
+        "Throat muscles and upper respiratory tract (గొంతు కండరాలు, శ్వాసనాళము)"
+      ],
+      "significations": [
+        "Courage, mental firmness, valor, and bravery (ధైర్యము, పరాక్రమము, సాహసము)",
+        "Younger siblings, co-borns, and cousins (సహోదరులు, తమ్ముళ్ళు, చెల్లెళ్ళు)",
+        "Short travels, journeys, commuting, and shifting locations (సుదూరము కాని ప్రయాణాలు, తిరుగుడు)",
+        "Writing, documentation, dynamic communications, and messages (రచనలు, పత్రలేఖనము, ఉత్తర ప్రత్యుత్తరాలు)",
+        "Physical strength, muscular fitness, and manual labor (శారీరక బలము, చేతిపని, కండరాల పుష్టి)",
+        "Voice cultivation, singing, instrumental musical talents (గానకళ, సంగీత వాయిద్య నైపుణ్యం)",
+        "Friends, immediate neighbors, and peer associations (స్నేహితులు, పొరుగువారు, సహచరులు)",
+        "Initiation of projects, self-efforts, and enterprise startup (స్వయంకృషి, నూతన కార్యారంభం)",
+        "Mental resolve, persistence, and facing high obstacles (పట్టుదల, పగతీర్చుకునే నైజం)",
+        "Servants, auxiliary staff, attendants, and helpers (సేవకులు, సహాయకులు)",
+        "Partition of assets, executing legal divisions (ఆస్తి పంపకాలు, విభజనలు)",
+        "Small vehicles like bicycles, cycles, or local transits (చిన్న వాహనములు, లోకల్ ప్రయాణాలు)",
+        "Secrets, private notes, and anonymous strategies (రహస్య పత్రములు, గూఢ సంకేతాలు)",
+        "Longevity anchor as it is the 8th from the 8th house (ఆయుష్షుకు సహాయక స్థానము)"
+      ]
+    },
+    "4th House (చతుర్థ భావము)": {
+      "technical_names": ["Matru Bhava (మాతృ భావము)", "Sukha Bhava (సుఖ భావము)", "Bandhu (బంధు)", "Amba (అంబ)", "Patala (పాతాళ)"],
+      "body_parts": [
+        "Chest cavity and heart organ (హృదయము, ఛాతి)", 
+        "Lungs and thoracic framework (ఊపిరితిత్తులు)", 
+        "Blood vessels servicing the core torso (రక్త నాళములు)", 
+        "Upper abdomen lining (ఉదర పైభాగము)"
+      ],
+      "significations": [
+        "Mother, maternal relationship, and her health (తల్లి, మాతృ సౌఖ్యము, మాతృమూర్తి క్షేమం)",
+        "General happiness, mental peace, and contentment (సుఖము, సంతోషము, మానసిక ప్రశాంతత)",
+        "Fixed properties, lands, real estate, and real assets (భూములు, స్థిరాస్తులు, తోటలు, పొలాలు)",
+        "Houses, buildings, residential architecture, and homes (గృహము, భవనములు, నివాస సౌకర్యము)",
+        "Conveyances, cars, heavy vehicles, and travel comforts (వాహనములు, మోటారు కార్లు, వాహన సుఖము)",
+        "Formal education, academic degrees, and institutional titles (విద్య, ఉన్నత విద్య, విద్యాభ్యాసము)",
+        "Relatives, paternal/maternal extended family network (బంధువులు, స్నేహ బృందము)",
+        "Hidden treasures, underground minerals, water beds, and roots (భూగర్భ నిధులు, గనులు, బావులు)",
+        "Agriculture production, grains, crops, and dairy supply (వ్యవసాయ ఫలసాయము, ధాన్యము, పాలు)",
+        "Throne, crown, political authority, and high seats of power (సింహాసనము, రాజ్యాధికార పదవులు)",
+        "Comfortable beds, domestic cows, livestock, and pets (గోసంపద, శయన సుఖము, పెంపుడు జంతువులు)",
+        "End of life conditions, graves, or final resting places (జీవిత చరమాంకం, సమాధి స్థలాలు)",
+        "Subterranean spaces, cellars, basements, and structural foundations (పాతాళ స్థానము, పునాదులు)",
+        "Character purity, clean conscience, and moral core (శీలము, పవిత్ర హృదయము)"
+      ]
+    }
+  }
+  
+  "5th House (పంచమ భావము)": {
+      "technical_names": ["Putra Bhava (పుత్ర భావము)", "Buddhi Bhava (బుద్ధి భావము)", "Mantra (మంత్ర)", "Pratibha (ప్రతిభ)"],
+      "body_parts": [
+        "Heart (హృదయము - భావనాత్మక భాగము)", 
+        "Upper stomach and liver (జీర్ణాశయము, కాలేయము)", 
+        "Gallbladder (పిత్తాశయము)",
+        "Mind and intellect core (మేధస్సు, మనస్సు)"
+      ],
+      "significations": [
+        "Children, progeny, and grandchildren (సంతానము, పుత్ర పౌత్రాభివృద్ధి, వంశాకురం)",
+        "Intelligence, sharp intellect, and memory power (బుద్ధి కుశలత, మేధస్సు, ధారణా శక్తి)",
+        "Purvapunya - meritorious deeds from past lives (పూర్వపుణ్యము, పూర్వీకుల సుకృతం)",
+        "Mantra siddhi, initiation, chanting, and secret prayers (మంత్ర సాధన, జపము, ఉపాసన)",
+        "Speculation, lottery, stock trading, and games of chance (లాటరీ, జూదము, షేర్ మార్కెట్ లాభాలు)",
+        "Creative talents, artistic expression, drama, and writing (సృజనాత్మకత, కళలు, నాటకము, కావ్య రచన)",
+        "Love affairs, romance, courtship, and emotional bonds (ప్రేమ వ్యవహారములు, ఆకర్షణ)",
+        "Discretionary wisdom, counseling, and giving advice (సలహాలు ఇవ్వడం, విచక్షణ జ్ఞానము)",
+        "Royal favor, executive updates, and high societal appointments (రాజకృప, ఉన్నత పదవులు, ప్రశంసలు)",
+        "Spiritual inclination, devotion, and alignment with deities (దైవభక్తి, ఇష్టదైవారాధన)",
+        "Secret strategies, political diplomacy, and policy drafting (రాజకీయ వ్యూహాలు, ప్రణాళికలు)",
+        "Deep emotional attachments, hidden desires, and pleasures (మనఃసంతోషము, అనురాగము)",
+        "Umbilical cord region, center of the belly structure (నాభి ప్రాంతము)",
+        "Literary scholarship, mastery over deep subjects (పాండిత్యము, శాస్త్ర పరిజ్ఞానము)"
+      ]
+    },
+    "6th House (షష్ఠ భావము)": {
+      "technical_names": ["Ripu Bhava (రిపు భావము)", "Roga Bhava (రోగ భావము)", "Shatru (శత్రు)", "Kshata (క్షత)"],
+      "body_parts": [
+        "Lower abdomen (పొత్తికడుపు)", 
+        "Intestines and bowel systems (ప్రేగులు, జీర్ణనాళ వ్యవస్థ)", 
+        "Navel zone and surrounding tissues (నాభి కింది భాగము)"
+      ],
+      "significations": [
+        "Diseases, physical ailments, and bodily infirmities (రోగాలు, వ్యాధులు, అనారోగ్యం)",
+        "Enemies, open competitors, rivals, and jealousy (శత్రువులు, విరోధులు, అసూయ)",
+        "Debts, financial loans, liabilities, and bankruptcy (అప్పులు, రుణాలు, ఆర్థిక ఇబ్బందులు)",
+        "Litigations, court disputes, and legal battles (కోర్టు వివాదాలు, వ్యాజ్యములు, తగాదాలు)",
+        "Maternal uncles, aunts, and mother's family line (మేనమామలు, తల్లి వైపు బంధువులు)",
+        "Servants, employees, hired labor, and subordinates (సేవకులు, నౌకర్లు, ఉద్యోగులు)",
+        "Thievery, losses due to fraud, and pickpocketing (దొంగతనాలు, మోసాలు, నష్టాలు)",
+        "Wounds, operations, scars, and physical injuries (గాయాలు, దెబ్బలు, శస్త్రచికిత్స గుర్తులు)",
+        "Pet animals, livestock, and small domestic creatures (పెంపుడు జంతువులు, పశుసంపద)",
+        "Daily hard routine, tedious labor, and obstacles (అనవరత శ్రమ, ఆటంకాలు, కష్టాలు)",
+        "Mental anxieties, phobias, and deep distress (మానసిక ఆందోళనలు, భయాలు)",
+        "Poisoning, insect bites, or chemical hazards (విష ప్రయోగములు, పురుగు కాట్లు)",
+        "Imprisonment, confinement, or restriction of freedom (బంధనములు, నిర్బంధం)",
+        "Cruel actions, fighting spirit, and conquering opposition (పోరాట పటిమ, శత్రు జయం)"
+      ]
+    },
+    "7th House (సప్తమ భావము)": {
+      "technical_names": ["Kalatra Bhava (కళత్ర భావము)", "Jaya Bhava (జాయా భావము)", "Kama (కామ)", "Yamitra (యామిత్ర)"],
+      "body_parts": [
+        "Urinary tract and bladder (మూత్రాశయము)", 
+        "External reproductive organs (బాహ్య జననేంద్రియములు)", 
+        "Pelvic girdle and lower back (కటి వలయము, నడుము కింది భాగము)"
+      ],
+      "significations": [
+        "Spouse, marriage, and domestic partner comfort (భార్య/భర్త, వివాహ బంధం, దాంపత్య సౌఖ్యం)",
+        "Business partnerships, co-directors, and legal contracts (భాగస్వామ్య వ్యాపారము, ఒప్పందాలు)",
+        "Public life, open marketplace, and outer interactions (ప్రజా సంబంధాలు, సామాజిక జీవనం)",
+        "Foreign travel, long-distance journeys, and changing locations (దూరదేశ ప్రయాణాలు, పరదేశ నివాసం)",
+        "Desire, sexual passion, and physical relationships (కామము, శారీరక సుఖం, మోహము)",
+        "Open enemies who challenge you directly in public (ప్రత్యక్ష శత్రువులు, ప్రతిపక్షం)",
+        "Recovery of missing properties or tracking lost things (నష్టపోయిన వస్తువుల ప్రాప్తి)",
+        "Semen, reproductive fluids, and sexual potency (వీర్య పుష్టి, సంతానోత్పత్తి శక్తి)",
+        "Adoption of children, legal guardian extensions (దత్తత తీసుకోవడం)",
+        "Commercial trade, retail shops, and transaction business (వర్తకము, వ్యాపార లావాదేవీలు, అంగడి)",
+        "Directional strength location for Venus and Saturn (శుక్ర, శనుల దిగ్బల స్థానము)",
+        "Public recognition, honors, and running for office (ప్రజాదరణ, గౌరవ పురస్కారాలు)",
+        "Disputes in marriage, legal divorce, or breakups if afflicted (వివాహంలో మనస్పర్థలు, విడాకులు)",
+        "Maraka power - secondary exit point for physical frame (ద్వితీయ మారక స్థానము)"
+      ]
+    },
+    "8th House (అష్టమ భావము)": {
+      "technical_names": ["Ayur Bhava (ఆయుర్భావము)", "Mrityu Bhava (మృత్యు భావము)", "Randhra (రంధ్ర)", "Chidra (ఛిద్ర)"],
+      "body_parts": [
+        "Anus, rectum, and excretory passages (గుద భాగము, మల విసర్జన అవయవాలు)", 
+        "Internal reproductive tracts (అంతర్గత జనన అవయవాలు)", 
+        "Chronic pain areas in deep joints (దీర్ఘకాలిక నొప్పులు)"
+      ],
+      "significations": [
+        "Longevity, life span duration, and mode of ending (ఆయుర్దాయము, జీవన కాలము, మృత్యు స్వభావము)",
+        "Sudden unearned wealth, windfalls, and inheritances (అనుకోని ధనలాభము, పిత్రార్జిత ఆస్తులు, వీలునామాలు)",
+        "Sudden shocks, crises, unexpected downfalls, and delays (ఆకస్మిక మార్పులు, ప్రమాదాలు, ఆటంకాలు)",
+        "Disgrace, insults, public humiliation, and loss of honor (అవమానము, కీర్తి నష్టము, అపనిందలు)",
+        "Occult knowledge, mysticism, deep research, and astrology (గూఢ విద్యలు, జ్యోతిష పరిశోధన, రహస్యాలు)",
+        "Chronic incurable diseases, lingering ailments (దీర్ఘకాలిక వ్యాధులు, నయం కాని రోగాలు)",
+        "Hidden underground chambers, deep holes, and tunnels (భూగర్భ మార్గాలు, రంధ్రములు, లోయలు)",
+        "Insurance claims, gratuities, pensions, and wills (భీమా ధనము, పారితోషికాలు, పెన్షన్లు)",
+        "Mental agony, deep depressions, and psychological trauma (తీవ్ర మానసిక వేదన, దుఃఖము, క్లేశము)",
+        "Defeat in litigation, loss of running battles (పరాజయము, కష్టాలు)",
+        "Crossing major rivers, sea voyages, and intense displacements (సముద్ర ప్రయాణాలు, నదులు దాటడం)",
+        "Punishment from authorities, fines, or tax audits (రాజదండన, జరిమానాలు, పన్నుల చిక్కులు)",
+        "Secrecy, confidential documents, and black money assets (రహస్య పత్రాలు, దాచిన ధనము)",
+        "Sustenance balance - directly holding the key to lifespan calculations (ఆయుఃప్రమాణ నిర్ణాయక శక్తి)"
+      ]
+    }
+	
+	"9th House (నవమ భావము)": {
+      "technical_names": ["Bhagya Bhava (భాగ్య భావము)", "Pitri Bhava (పితృ భావము)", "Dharma (ధర్మ)", "Guru (గురు)"],
+      "body_parts": [
+        "Thighs (తొడలు)", 
+        "Hips and pelvic joints (నడుము సంధులు, కీళ్ళు)", 
+        "Arteries carrying vital fluids (ధమనులు)"
+      ],
+      "significations": [
+        "Good fortune, luck, and prosperity (భాగ్యము, అదృష్టము, సుకృతం)",
+        "Father, paternal relationship, and his longevity (తండ్రి, పితృ సౌఖ్యము, జనకుడు)",
+        "Dharma, righteousness, virtue, and morality (ధర్మము, పుణ్యము, నీతిమార్గాచరణ)",
+        "Guru, preceptors, spiritual teachers, and mentors (గురువులు, ఆచార్యులు, మార్గదర్శకులు)",
+        "Long-distance travels, pilgrimages, and foreign voyages (పుణ్యక్షేత్ర దర్శనములు, సుదూర ప్రయాణాలు)",
+        "Higher education, deep research, philosophy, and post-graduation (ఉన్నత విద్య, శాస్త్ర పరిశోధన, వేదాంతం)",
+        "Charity, building temples, tanks, or public utilities (దానధర్మాలు, దేవాలయ ప్రతిష్టలు, తటాక నిర్మాణాలు)",
+        "Divine grace, blessings from deities and ancestral spirits (దైవానుగ్రహము, పితృదేవతల ఆశీస్సులు)",
+        "Grandchildren and the extensions of family lineage (మనుమలు, వంశాభివృద్ధి)",
+        "Legal righteousness, constitutional wisdom, and publishing (ధర్మశాస్త్ర గ్రంథాలు, ప్రచురణలు)",
+        "Coronation, receiving titles, awards, and sudden honors (పట్టాభిషేకము, గౌరవ బిరుదులు, ప్రశంసా పత్రాలు)",
+        "Wealth acquired through righteous means, ancestral wealth (పిత్రార్జిత ఆస్తి, ధర్మధనము)",
+        "Spiritual texts, traditional vedic chanting, and sacrifices (యజ్ఞయాగాదులు, వేద మంత్ర శ్రవణం)",
+        "Purity of intention and ultimate philosophical outlook (నిర్మల మనస్తత్వము, దార్శనికత)"
+      ]
+    },
+    "10th House (దశమ భావము)": {
+      "technical_names": ["Karma Bhava (కర్మ భావము)", "Rajya Bhava (రాజ్య భావము)", "Kirti (కీర్తి)", "Meshurana (మేషురణ)"],
+      "body_parts": [
+        "Knees (మోకాళ్ళు)", 
+        "Knee caps and surrounding joints (మోకాలి చిప్పలు, సంధులు)", 
+        "Skeletal structure joints balancing the lower frame (కీళ్ళు)"
+      ],
+      "significations": [
+        "Profession, career, job, livelihood, and business (జీవనోపాధి, వృత్తి, ఉద్యోగము, వ్యాపారము)",
+        "Karma - actions, societal deeds, and performance of duty (కార్యకలాపాలు, సమాజంలో చేసే పనులు)",
+        "Government authority, political power, and high status (రాజ్యాధికారము, ప్రభుత్వ గౌరవము, ముద్ర)",
+        "Fame, public reputation, rank, and position in life (కీర్తి ప్రతిష్టలు, లోక ఖ్యాతి, పదోన్నతి)",
+        "Honors from sovereigns, presidential medals, and leadership (రాజసన్మానములు, నాయకత్వ హోదా)",
+        "Commanding authority, managerial control, and administration (శాసనాధికారము, కార్యనిర్వహణ శక్తి)",
+        "Commerce, trade markets, industries, and large enterprises (వర్తక వ్యాపారములు, పరిశ్రమలు)",
+        "Retirement actions, stability in professional execution (వృత్తి స్థిరత్వము, కర్మ సమాప్తి)",
+        "Adopted father or secondary parental authority figures (పోష్య తండ్రి, గురుతుల్యులు)",
+        "Pilgrimages associated with executing family duties (పితృకర్మలు, కులధర్మ పాలన)",
+        "Foreign assignments, professional travels, and displacements (ఉద్యోగ రీత్యా పరదేశ ప్రయాణాలు)",
+        "Self-respect, continuous effort, and worldly achievements (ఆత్మగౌరవము, నిరంతర కృషి, కార్యసిద్ధి)",
+        "The zenith - highest visible point of the chart matrix (ఆకాశ మధ్యస్థానము, సర్వోన్నత స్థానము)",
+        "Moral actions or professional downfalls if afflicted (సత్కర్మలు లేదా అపకీర్తి, పదవీ చ్యుతి)"
+      ]
+    },
+    "11th House (ఏకాదశ భావము)": {
+      "technical_names": ["Labha Bhava (లాభ భావము)", "Aaya Bhava (ఆయ భావము)", "Agamana (ఆగమన)", "Siddhi (సిద్ధి)"],
+      "body_parts": [
+        "Calves (పిక్కలు)", 
+        "Ankles and left ear (మడమలు, చీలమండలు, ఎడమ చెవి)", 
+        "Circulatory channels of the lower limbs (రక్తనాళములు)"
+      ],
+      "significations": [
+        "Gains, profits, income, and financial returns (లాభములు, ఆదాయము, ధనప్రాప్తి)",
+        "Fulfillment of desires, wishes, and life goals (కోరికలు తీరడం, సంకల్ప సిద్ధి, ఇష్టార్థ సిద్ధి)",
+        "Elder siblings - brothers and sisters (అగ్రజాతలు, అన్నలు, అక్కలు)",
+        "Friends, social networks, dynamic unions, and clubs (స్నేహితులు, మిత్ర బృందము, సంఘాలు)",
+        "Success in all undertakings, overcoming long disputes (విజయప్రాప్తి, పనుల సానుకూలత)",
+        "Unearned wealth, bonuses, dividends, and market yields (వ్యాపార లాభాలు, బోనస్, షేర్ మార్కెట్ డివిడెండ్లు)",
+        "Gifts, rewards, legacies, and sudden material acquisitions (బహుమతులు, కానుకలు, ఆకస్మిక ధన లాభం)",
+        "Curing of diseases, convalescence, and recovery (ఆరోగ్య ప్రాప్తి, రోగ విముక్తి)",
+        "Vehicles obtained through professional profits or gains (లాభ వాహనములు, విలాస వస్తువులు)",
+        "Advisors, patrons, institutional supporters, and well-wishers (సలహాదారులు, పోషకులు, హితైషులు)",
+        "Mastery over trade secrets, expanding commercial wings (వ్యాపార విస్తరణ, ఆదాయ మార్గాలు)",
+        "Knowledge execution - utilizing learning for gains (విద్య ద్వారా ధనార్జన)",
+        "Daughter-in-law, son-in-law, and family alliances (కోడళ్ళు, అల్లుళ్ళు, నూతన బంధుత్వాలు)",
+        " baseline element for general expansion and continuous growth (సర్వతోముఖాభివృద్ధి)"
+      ]
+    },
+    "12th House (ద్వాదశ భావము)": {
+      "technical_names": ["Vyaya Bhava (వ్యయ భావము)", "Moksha Bhava (మోక్ష భావము)", "Antya (అంత్య)", "Rizpha (రిష్ఫ)"],
+      "body_parts": [
+        "Feet (పాదములు)", 
+        "Toes (కాలి వేళ్ళు)", 
+        "Left eye (ఎడమ కన్ను)", 
+        "Sleep mechanisms and sleep centers (నిద్ర సుఖము)"
+      ],
+      "significations": [
+        "Expenditures, financial losses, drains, and waste (వ్యయములు, ఖర్చులు, ధన నష్టము)",
+        "Moksha, spiritual liberation, and final salvation (మోక్షము, ముక్తి మార్గము, కర్మ విముక్తి)",
+        "Foreign countries, distant alien lands, and emigration (దూరదేశ ప్రయాణము, పరదేశ నివాసము)",
+        "Hospitals, clinics, nursing homes, and sanatoriums (ఆసుపత్రులు, వైద్యశాలలు, చికిత్స స్థలాలు)",
+        "Confinement, prisons, jail terms, and isolation (నిర్బంధము, బందీఖానా, ఏకాంత నివాసము)",
+        "Bed comforts, deep sleep, dreams, and bedrooms (శయన సుఖము, నిద్ర, స్వప్న లోకము)",
+        "Secret enemies, hidden plots, and underground sabotage (పరోక్ష శత్రువులు, రహస్య కుట్రలు)",
+        "Investments, donations, charity, and spending for good deeds (పెట్టుబడులు, దానధర్మాలు, శుభ వ్యయములు)",
+        "Renunciation, detachment, sanyasa, and giving up ego (వైరాగ్యము, సన్యాసము, అహంకారం వీడటం)",
+        "Bodily exhaustion, physical weakness, and hospitalization (శారీరక బలహీనత, అలసట, రోగ నిమిత్త వ్యయం)",
+        "Asylums, meditation ashrams, and remote hideouts (ధ్యాన మందిరాలు, ఏకాంత ఆశ్రమాలు)",
+        "Loss of position, demotions, and dropping out of races (పదవీ నష్టము, వృత్తి చ్యుతి)",
+        "Anxieties, mental prisons, unmanifested fears, and guilt (మానసిక ఆందోళనలు, అంతర్గత భయాలు)",
+        "The end of a specific cycle, dissolution, and liquidation (లయ స్థానము, ముగింపు)"
+      ]
+    }
+  }
+}
+
+"graha_karakatwas": {
+    "Sun (సూర్యుడు)": {
+      "technical_names": ["Ravi (రవి)", "Bhanu (భాను)", "Arka (అర్క)", "Surya (సూర్య)", "Atma Karaka (ఆత్మకారక)"],
+      "attributes": "King, Soul, Bones, Fire, East, Day-strong, Satva Guna, Ruby (కెంపు), Wheat (గోధుమలు)",
+      "significations": [
+        "Soul and self-realization (ఆత్మకారకత్వము, జీవాత్మ)",
+        "Father, paternal ancestors, and lineage authority (తండ్రి, పితృ కారకత్వము)",
+        "Government, royal favor, political power, and crown (రాజ్యాధికారము, ప్రభుత్వం, కిరీటం)",
+        "Fame, honor, public reputation, and leadership (కీర్తి, ప్రతిష్ట, సమాజంలో గౌరవం)",
+        "Bones, skeletal system, and vital structural frame (శరీర శల్యములు, ఎముకలు)",
+        "Eyesight, specifically the right eye (నేత్ర దృష్టి, కుడి కన్ను)",
+        "Heart, physical courage, and internal life-force (హృదయము, పరాక్రమము, శారీరక తేజస్సు)",
+        "Temples, forests, high places, and places of worship (దేవాలయాలు, కొండలు, దట్టమైన అడవులు)",
+        "Gold, copper, precious gems, and valuable metals (బంగారము, రాగి, విలువైన లోహాలు)",
+        "Cruel temperament, short anger, and dominant execution (ఉగ్ర స్వభావము, పట్టుదల, శాసించే గుణం)",
+        "Medical knowledge, health, and healing capacities (వైద్య శాస్త్రము, ఆరోగ్య శక్తి)",
+        "Sovereign administration, ministries, and state management (ప్రభుత్వ నిర్వాహణ, మంత్రులు)",
+        "Bitter taste, hot spices, and sharp elements (చేదు రుచి, వేడి వస్తువులు)",
+        "Freedom from diseases, robust digestion, and high immune baseline (రోగ నిరోధక శక్తి)"
+      ]
+    },
+    "Moon (చంద్రుడు)": {
+      "technical_names": ["Chandra (చంద్ర)", "Soma (సోమ)", "Indu (ఇందు)", "Matru Karaka (మాతృకారక)"],
+      "attributes": "Queen, Mind, Fluids/Blood, Water, Northwest, Night-strong, Satva Guna, Pearl (ముత్యం), Rice (వరి ధాన్యము)",
+      "significations": [
+        "Mind, mental stability, and emotional intelligence (మనఃకారకత్వము, బుద్ధి, భావనలు)",
+        "Mother, maternal instincts, and feminine care (తల్లి, మాతృత్వము, స్త్రీ సౌఖ్యము)",
+        "Fluids, blood circulation, lymph, and bodily waters (శరీర ద్రవములు, రక్త ప్రసరణ, లసిక)",
+        "Oceans, seas, rivers, wells, and watery environments (సముద్రములు, నదులు, జలాశయాలు)",
+        "Pearls, conch shells, marine products, and silver (ముత్యములు, శంఖములు, వెండి)",
+        "Left eye, facial glow, and skin moisture (ఎడమ కన్ను, ముఖ వర్చస్సు)",
+        "Agriculture, paddy fields, sugarcane, and white grains (వ్యవసాయము, వరి పంట, చెరుకు తోటలు)",
+        "Public masses, popularity, and shifting fortunes (ప్రజా సమూహములు, కీర్తిలో మార్పులు)",
+        "Travel, foreign voyages, sea transits, and short displacements (ప్రయాణాలు, సముద్రయానము)",
+        "Sweet things, milk, dairy products, and fine dining (తీపి పదార్థములు, పాలు, పెరుగు, క్షీర అన్నము)",
+        "Sleep, dream sciences, resting comforts, and bedrooms (నిద్ర సుఖము, స్వప్న లోకము, శయన మందిరం)",
+        "Nurturing, herbs, medicines, botanical juices (ఔషధ మూలికలు, రసాయనిక రసాలు)",
+        "Shyness, shifting moods, artistic imagination (చంచల స్వభావము, సిగ్గు, లలిత కళల ఆసక్తి)",
+        "Vargottama stability anchor for general horoscopic strength (జాతక పునాది బలం)"
+      ]
+    },
+    "Mars (కుజుడు)": {
+      "technical_names": ["Kuja (కుజ)", "Angaraka (అంగారక)", "Mangala (మంగళ)", "Bhauma (భౌమ)"],
+      "attributes": "Commander, Blood/Bone Marrow, Fire, South, Night-strong, Tamo Guna, Coral (పగడము), Red Lentils (కందులు)",
+      "significations": [
+        "Courage, physical strength, bravery, and heroism (ధైర్యము, శారీరక బలము, సాహసము)",
+        "Younger brothers, siblings, and co-borns (సహోదరులు, తమ్ముళ్ళు)",
+        "Lands, real estate, physical properties, and agriculture soil (భూములు, స్థిరాస్తులు, మట్టి)",
+        "Blood, bone marrow, bile, and muscular tissues (రక్తము, ఎముకలలోని మజ్జ, కండరాలు)",
+        "Weapons, fire, explosives, and sharp instruments (ఆయుధములు, అగ్ని, పేలుడు పదార్థాలు)",
+        "War, battlefields, army, police, and defense forces (యుద్ధము, సైన్యము, రక్షణ రంగం, పోలీస్ స్థావరాలు)",
+        "Surgeries, wounds, burns, and accidents (శస్త్రచికిత్సలు, గాయాలు, అగ్ని ప్రమాదాలు)",
+        "Engineering, mechanics, technical infrastructure, and building (ఇంజనీరింగ్, యంత్రములు, గృహ నిర్మాణం)",
+        "Anger, aggressive temper, revenge, and fighting spirit (కోపము, పగ, కలహములు, ఘర్షణలు)",
+        "Thieves, outlaws, energy manipulation, and sports (దొంగలు, క్రీడలు, వ్యాయామ శాలలు)",
+        "Brick kilns, smelting units, chemical fire labs (ఇటుక బట్టీలు, లోహము కరిగించే స్థలాలు)",
+        "Pungent taste, hot spices, bitter oils (కారం రుచి, ఘాటైన పదార్థాలు)",
+        "Executive implementation, driving projects forward (కార్యసాధన శ్రమ)",
+        "Debt, structural opposition, and conquering enemies (రుణములు, శత్రు జయ శక్తి)"
+      ]
+    },
+    "Mercury (బుధుడు)": {
+      "technical_names": ["Budha (బుధ)", "Saumya (సౌమ్య)", "Vidya Karaka (విద్యాకారక)"],
+      "attributes": "Prince, Skin, Earth/Air, North, Day-strong, Rajo Guna, Emerald (పచ్చ), Green Gram (పెసలు)",
+      "significations": [
+        "Intelligence, logical reasoning, and analytical intellect (బుద్ధి కుశలత, వివేకము, తర్కము)",
+        "Education, speech, eloquence, and calculations (విద్య, వాక్ చాతుర్యము, గణిత శాస్త్రము)",
+        "Business, trade, commerce, accounts, and market transactions (వ్యాపారము, వర్తకము, అకౌంటింగ్)",
+        "Writing, literature, printing, journalism, and publications (రచనలు, పత్రికలు, గ్రంథ ముద్రణ)",
+        "Astrology, future evaluation, complex data structures (జ్యోతిషము, గణనలు, పరిశోధన)",
+        "Skin, nervous system, tongue, and communication channels (చర్మము, నరముల వ్యవస్థ, జిహ్వ)",
+        "Maternal uncles, relatives, and intermediate friends (మేనమామలు, బంధువులు, స్నేహితులు)",
+        "Fine arts, drawing, craftsmanship, and hand skills (చిత్రలేఖనము, శిల్పకళ, హస్తకళలు)",
+        "Humor, jokes, wit, playfulness, and theatre skills (హాస్యము, వినోదము, నాటకరంగం)",
+        "Mixed taste, vegetables, green leaves, and pulses (ఆకుకూరలు, పెసలు, మిశ్రమ రుచులు)",
+        "Ambiguity, dual thought processes, changing decisions (ద్వంద్వ బుద్ధి, సమయానుకూల ఆలోచన)",
+        "Libraries, post offices, telecommunications, and networks (గ్రంథాలయాలు, సమాచార కేంద్రాలు)",
+        "Diplomacy, document drafting, executing contracts (రాయబారము, పత్రాల తయారీ)",
+        "Adolescence, dynamic youthful energy execution (బాల్య దశ, నూతన ఉత్సాహం)"
+      ]
+    },
+    "Jupiter (గురుడు)": {
+      "technical_names": ["Guru (గురు)", "Brihaspati (బృహస్పతి)", "Jiva Karaka (జీవకారక)", "Dhana Karaka (ధనకారక)"],
+      "attributes": "Minister/Preceptor, Fat/Brain, Ether, Northeast, Day-strong, Satva Guna, Yellow Sapphire (పుష్యరాగము), Chickpeas (శనగలు)",
+      "significations": [
+        "Wealth, finance, accumulated money, and gold (ధనము, నిల్వ ఐశ్వర్యము, బంగారము)",
+        "Children, progeny, grandsons, and lineage expansion (సంతానము, పుత్ర పౌత్రాభివృద్ధి)",
+        "Divine wisdom, spirituality, vedic knowledge, and philosophy (జ్ఞానము, వేదాంతము, దైవిక విద్య)",
+        "Guru, preceptors, high advisors, and spiritual teachers (ఆచార్యులు, గురువులు, మార్గదర్శకులు)",
+        "Justice, law, courts, right judgments, and constitution (న్యాయము, ధర్మశాస్త్రము, కోర్టు తీర్పులు)",
+        "Temples, ashrams, universities, and high seats of learning (దేవాలయాలు, పవిత్ర క్షేత్రాలు, ఉన్నత పీఠాలు)",
+        "Charity, religious rituals, sacrifices, and donations (దానధర్మాలు, యజ్ఞయాగాదులు)",
+        "Body fat, liver, digestive systems, and physical growth (శరీర మేధస్సు, కాలేయము, స్థూల కాయం)",
+        "Respect, prestige, royal titles, and social honors (కీర్తి ప్రతిష్టలు, బ్రహ్మణ గౌరవము)",
+        "Sweetness, ghee, honey, and highly nourishing foods (తీపి రుచి, నేయి, తేనె, రుచికర భోజనం)",
+        "Divine grace, protective shielding in the horoscope (దైవానుగ్రహము, రక్షా కవచం)",
+        "Optimism, expansive mindset, truthfulness (సత్య భాషణము, ఆశావాదం)",
+        "Publishing traditional values, executing global expansion (ధర్మ ప్రచారం)",
+        "Elder guide characters, execution of administrative protocols (ఉన్నత సలహాదారు వృత్తి)"
+      ]
+    },
+    "Venus (శుక్రుడు)": {
+      "technical_names": ["Shukra (శుక్ర)", "Kavi (కవి)", "Bhrigu (భృగు)", "Kalatra Karaka (కళత్రకారక)"],
+      "attributes": "Minister, Semen/Fluids, Water, Southeast, Day-strong, Rajo Guna, Diamond (వజ్రము), White Beans (చిక్కుళ్ళు)",
+      "significations": [
+        "Wife, marriage, spouse, and domestic partnerships (భార్య/భర్త, దాంపత్య సౌఖ్యము, వివాహము)",
+        "Vehicles, luxury conveyances, and travel comforts (వాహనములు, విలాస కారులు, వాహన ప్రాప్తి)",
+        "Luxuries, diamonds, heavy wealth, fine clothes, and perfumes (భోగవస్తువులు, వజ్రాలు, సుగంధ ద్రవ్యాలు)",
+        "Music, singing, acting, cinema, and all fine arts (సంగీతము, నాట్యము, చలనచిత్ర రంగాలు)",
+        "Semen, reproductive fluids, sexual potency, and beauty (వీర్యము, సంతానోత్పత్తి శక్తి, శృంగార సుఖం)",
+        "Aesthetics, home decoration, architectural designs (అలంకరణ, గృహ సౌందర్యము, విలాస భవనాలు)",
+        "Acidic taste, sour materials, silver, and fine fabrics (పులుపు రుచి, వెండి, పట్టు వస్త్రాలు)",
+        "Poetry, creative literature, imaginative expressions (కవిత్వము, రసజ్ఞత, నాటక రచనలు)",
+        "Directional strength in the 7th house framework (సప్తమ భావ దిగ్బలము)",
+        "Recovery of lost wealth, secret diplomacy in partnerships (నష్టధన ప్రాప్తి, లౌక్యము)",
+        "Pleasure gardens, hotels, resorts, and entertainment spots (వినోద శాలలు, విలాస వనములు)",
+        "Urinary tract, kidneys, and sensory facial fluids (మూత్రాశయము, నేత్ర కాంతి)",
+        "Social harmony, attractions, love affairs, corporate charm (ప్రేమ వ్యవహారాలు, సామాజిక ఆకర్షణ)",
+        "Middling divisional dignity structural limits if afflicted (షడ్వర్గ/వైశేషికాంశ బేధములు)"
+      ]
+    },
+    "Saturn (శని)": {
+      "technical_names": ["Shani (శని)", "Manda (మంద)", "Manda-Gati (మందగతి)", "Ayush Karaka (ఆయుష్కారక)"],
+      "attributes": "Servant, Muscles/Nerves, Air, West, Night-strong, Tamo Guna, Blue Sapphire (నీలము), Sesame (నువ్వులు)",
+      "significations": [
+        "Longevity, duration of lifespan, and decay cycles (ఆయుస్సు నిర్ణయము, మృత్యు కారకత్వము)",
+        "Hard physical labor, servitude, factory jobs, and slavery (కఠిన శ్రమ, దాస్యము, సేవక వృత్తి)",
+        "Debts, poverty, miseries, delays, and obstructions (దారిద్ర్యము, అప్పులు, ఆలస్యము, ఆటంకాలు)",
+        "Chronic diseases, old age, paralysis, and physical deformities (దీర్ఘకాలిక వ్యాధులు, వృద్ధాప్యము, పక్షవాతం)",
+        "Imprisonment, isolation, confinement, and places of ruins (నిర్బంధము, బందీఖానా, పాడుబడిన భవనాలు)",
+        "Iron, heavy metals, oil extraction, and coal mines (ఇనుము, నీలి లోహాలు, గనులు, నూనెలు)",
+        "Servants, labor unions, downstream execution, working class (కార్మికులు, సేవక జనం, కార్మిక సంఘాలు)",
+        "Astringent taste, dry, stale, or leftover foods (వగరు రుచి, నిల్వ పదార్థములు, చద్ది అన్నము)",
+        "Nerves, muscles, calves, ankles, and bone joints (నరములు, కీళ్ళు, పిక్కలు, వాత రోగములు)",
+        "Miserly nature, dry detachment, renunciation, sanyasa (లోభత్వము, వైరాగ్యము, ఒంటరితనం)",
+        "Foreign settlements, manual labor assignments abroad (పరదేశ నివాసము, శ్రమ వృత్తి)",
+        "Discipline, fear, psychological darkness, adjustments (భయము, అపనిందలు, ఓర్పు)",
+        "Cremation grounds, heavy equipment yards, storage sheds (శ్మశాన వాటికలు, కలప డిపోలు)",
+        "Directional strength anchoring capacity inside the 7th house (సప్తమ భావ శని దిగ్బలం)"
+      ]
+    },
+    "Rahu (రాహువు)": {
+      "technical_names": ["Rahu (రాహు)", "Tamra (తామ్ర)", "Asura (అసుర)", "Bhayanaka (భయానక)"],
+      "attributes": "Shadow planet, Saturn-like properties (శనివత్ రాహు), South-West, Tamo Guna, Gomedhikam (గోమేధికము), Black Gram (మినుములు)",
+      "significations": [
+        "Foreign travel, completely alien cultures, and foreign lands (దూరదేశ ప్రయాణము, విదేశీ నివాసము)",
+        "Poisons, chemical toxins, reptile bites, and venom (విషములు, సర్ప కాట్లు, రసాయన ప్రమాదాలు)",
+        "Illusions, hallucination, phantom fears, and dark magic (భ్రమ, మంత్ర తంత్రాలు, మానసిక భ్రాంతి)",
+        "Sudden windfalls, huge speculation, dark internet networks (ఆకస్మిక ధన లాభం, ఊహించని మార్పులు)",
+        "Skin diseases, leprosy, mysterious incurable chronic elements (చర్మ వ్యాధులు, వింత రోగాలు)",
+        "Paternal grandfather, family ancestral shadow updates (పితామహుడు, పూర్వీకుల దోషములు)",
+        "Gambling dens, dark secret routes, outcasts, taboos (జూద గృహాలు, రహస్య మార్గాలు, సమాజ నియమ ఉల్లంఘన)",
+        "Inventions, electronic codes, high-tech engineering setups (వింత ఆవిష్కరణలు, సాంకేతిక పరిజ్ఞానము)",
+        "Adulteration, smoky settings, heavy smoke environments (కలుషిత పదార్థాలు, పొగ ప్రాంతాలు)",
+        "Uncontrolled desire, manipulation, corporate cheating frameworks (దురాశ, మోసపూరిత ఆలోచనలు)",
+        "Confinement, hidden underground tunnels, intelligence espionage (రహస్య గూఢచర్యము, సొరంగాలు)",
+        "Epidemics, viral outbreaks, breathing contamination checks (అంటువ్యాధులు, ఊపిరితిత్తుల ఇబ్బందులు)",
+        "Execution of high profile shadows, mass illusions (మాయాజాలం)",
+        "Breaking traditions, sudden identity displacement profiles (కులమత నియమాలను వీడటం)"
+      ]
+    },
+    "Ketu (కేతువు)": {
+      "technical_names": ["Ketu (కేతు)", "Shikhi (శిఖి)", "Moksha Karaka (మోక్షకారక)"],
+      "attributes": "Shadow planet, Mars-like properties (కుజవత్ కేతు), North-West, Tamo Guna, Cat's Eye (వైడూర్యము), Horse Gram (ఉలవలు)",
+      "significations": [
+        "Moksha, ultimate spiritual liberation, and salvation (మోక్షము, ముక్తి మార్గము, ఆధ్యాత్మిక శిఖరం)",
+        "Renunciation, absolute detachment, ascetics, and ashrams (వైరాగ్యము, సన్యాసము, ఆశ్రమ నివాసము)",
+        "Wounds, sudden cuts, surgeries, and needle points (గాయాలు, శస్త్రచికిత్సలు, సూది గుర్తులు)",
+        "Maternal grandfather, maternal lineage updates (మాతామహుడు, తల్లి వైపు పూర్వీకులు)",
+        "Mysticism, occult analysis, deep silence, meditation locks (ధ్యానము, మౌన వ్రతము, రహస్య జ్ఞాన శోధన)",
+        "Dogs, pets, horned animals, and specific field birds (కుక్కలు, పెంపుడు జంతువులు, పక్షులు)",
+        "Skin eruptions, viral boils, smallpox, internal fevers (పొక్కులు, చర్మపు మచ్చలు, తీవ్ర జ్వరములు)",
+        "Seclusion, prison blocks, complete bankruptcy if afflicted (ఏకాంత నివాసము, సర్వస్వ త్యాగము, ఆర్థిక నష్టాలు)",
+        "Narrow lanes, chimneys, structural heights, flags, and spires (చిన్న సందులు, ధ్వజస్తంభము, జెండాలు)",
+        "Indecisiveness, sudden bursts of anger, emotional vacuum (తీవ్ర కోపము, శూన్య భావన, కలవరపాటు)",
+        "Astrological deeper intuition, hearing inner voices (అంతర్జ్ఞానము, జ్యోతిష సూక్ష్మ బుద్ధి)",
+        "Foreign language processing, decoding cryptic symbols (రహస్య సంకేతాల విశ్లేషణ)",
+        "Dissolution of material goals, cutting cords (బంధాల విముక్తి)",
+        "Weaving industries, threads, execution of micro handicrafts (నేత వృత్తి, సూక్ష్మ పనులు)"
+      ]
+    }
+  }
+}

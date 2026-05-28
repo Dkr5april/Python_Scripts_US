@@ -1,0 +1,34 @@
+Koti Davuluri
+Phoenix, AZ, USA | +1 (602) 617-6185 | kotesward2569@gmail.com |
+
+PROFESSIONAL SUMMARY
+Strategic SAP BASIS Architect with 19+ years of experience delivering end-to-end SAP system installations, upgrades, migrations, and cloud integrations. Deep expertise in SAP HANA, SLT, Gateway, and Cloud Connector administration within complex enterprise environments. Proven technical advisor with a strong ability to translate business requirements into scalable, secure, and high-availability SAP architectures across Azure, AWS, and on-premises landscapes.
+
+CORE SKILLS
+SAP HANA • SLT Replication • SAP Gateway • SAP Cloud Connector • SAP BTP • Azure Migration • AWS Migration • High Availability Architecture • System Performance Tuning • Change & Transport Management • Technical Advisory
+
+PROFESSIONAL EXPERIENCE
+Timken Company — Sr. SAP System Consultant / Migration Lead | Nov 2013 – Present
+•	Led full lifecycle SAP installations, upgrades, and migrations for HANA, SLT, and Gateway systems.
+•	Managed SLT replication including schema mapping, performance tuning, and Delivery Unit transports.
+•	Served as senior technical advisor to IT leadership on SAP landscape and cloud strategy decisions.
+•	Implemented and administered SAP Cloud Connector, enabling secure BTP-to-on-premise integrations.
+•	Performed advanced system performance tuning and root cause analysis, reducing downtime by 15%.
+•	Designed and supported high-availability solutions using Pacemaker clustering and backup strategies.
+•	Ensured compliance with enterprise Change Management and audit standards.
+
+
+
+Hewlett Packard Global — SAP BASIS HANA Consultant | Jan 2011 – Oct 2013
+•	Led SAP ECC, BW, and Gateway migration projects to AWS using SUM DMO with System Move.
+•	Provided Tier-3 support for complex Oracle and HANA database performance issues.
+•	Developed automation scripts to standardize system refreshes and HANA DB upgrades.
+
+Tech Mahindra / Mahindra Satyam — SAP BASIS Consultant | Feb 2006 – Dec 2010
+•	Delivered end-to-end SAP BASIS lifecycle support for global enterprise clients.
+•	Managed Support Pack upgrades, kernel patches, and complex transport landscapes.
+•	Configured RFCs and ensured stability across ABAP and Java SAP stacks.
+
+EDUCATION
+B.Sc. in Electronics and Equipment Maintenance | 1997 – 2000
+Diploma in Computer Applications | 2000 – 2001

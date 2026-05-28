@@ -1,0 +1,24 @@
+# --- SAP BASIS SEARCH LIST ---
+
+# Option 1: The Wide Range (All Senior Roles)
+# ("SAP Basis") AND ("Architect" OR "Lead" OR "Senior" OR "Manager")
+
+# Option 2: Specific to Architects (Uncomment this to use it)
+#"SAP Basis Architect"
+
+# Option 3: Technical Specialized (HANA focus)
+# "SAP Basis" AND "HANA"
+
+# Option 4: Cloud focus
+# "SAP Basis" AND ("Azure" OR "AWS")
+
+# Option 5: Cloud focus
+"SAP Basis" AND ("ADMIN" OR "Administrator" OR "Techincal Consultant" OR "Consultant")
+
+#Option 5: Manageral side
+#"SAP Basis" AND "Technical Manager"
+
+#Option 5: Migration side
+#"SAP Basis" AND ("Migration" OR "Upgrade Consultant")
+
+

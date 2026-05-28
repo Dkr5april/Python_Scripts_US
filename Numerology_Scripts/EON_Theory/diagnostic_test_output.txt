@@ -1,0 +1,2 @@
+This file was successfully created by the diagnostic script.
+CWD: C:\backup\US_word_files\Interview_learnings\python_scripts\Numerology_Scripts\EON_Theory

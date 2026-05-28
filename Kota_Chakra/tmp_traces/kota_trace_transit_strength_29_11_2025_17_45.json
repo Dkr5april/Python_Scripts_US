@@ -1,0 +1,131 @@
+[
+  {
+    "step": "geocoding_success",
+    "time": 1764380493.4497063,
+    "location": "Brisbane",
+    "latitude": -27.4689623,
+    "longitude": 153.0235009
+  },
+  {
+    "step": "toss_check_time",
+    "time": 1764380493.4724045,
+    "utc_time": "2025-11-29 17:45:00+00:00",
+    "lat": -27.4689623,
+    "lon": 153.0235009
+  },
+  {
+    "step": "set_sidereal_mode",
+    "time": 1764380493.4824443,
+    "mode": "lahiri"
+  },
+  {
+    "step": "ascendant_calculated",
+    "time": 1764380493.4844973,
+    "lat": -27.4689623,
+    "lon": 153.0235009,
+    "lagna_long": 257.6522604987728,
+    "lagna_nak_index": 19
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764380493.4879231,
+    "jd_ut": 2461009.2395833335,
+    "longs": {
+      "Sun": 223.542928708263,
+      "Moon": 331.53770944629895,
+      "Mercury": 206.48679659411835,
+      "Venus": 214.3930181199911,
+      "Mars": 234.14057009536938,
+      "Jupiter": 90.39161256635911,
+      "Saturn": 330.93974815194565,
+      "Rahu": 319.6584503831736,
+      "Ketu": 139.6584503831736
+    }
+  },
+  {
+    "step": "avakhada_pada_lord",
+    "time": 1764380493.4903116,
+    "nak": 19,
+    "pada": 2,
+    "midpoint": 258.33333333333337,
+    "lord": "Jupiter"
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764380493.4992628,
+    "janma_index": 19,
+    "regions": {
+      "Stambha": [
+        23,
+        2,
+        9,
+        16
+      ],
+      "Madhya": [
+        22,
+        24,
+        2,
+        4,
+        9,
+        11,
+        16,
+        18
+      ],
+      "Prakaara": [
+        21,
+        25,
+        1,
+        5,
+        8,
+        12,
+        15,
+        19
+      ],
+      "Bahya": [
+        19,
+        20,
+        26,
+        0,
+        6,
+        7,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "step": "mercury_status_final",
+    "time": 1764380493.5023222,
+    "afflicted": false
+  },
+  {
+    "step": "transit_strength_check",
+    "time": 1764380493.504745,
+    "planet": "Jupiter",
+    "nak": 6,
+    "reason": "Kota Paala Favorable Region",
+    "delta": 2
+  },
+  {
+    "step": "transit_strength_check",
+    "time": 1764380493.5093586,
+    "planet": "Sun",
+    "nak": 16,
+    "reason": "Benefic Exit Gate",
+    "delta": 1
+  },
+  {
+    "step": "transit_strength_check",
+    "time": 1764380493.5141258,
+    "planet": "Venus",
+    "nak": 16,
+    "reason": "Benefic Exit Gate",
+    "delta": 1
+  },
+  {
+    "step": "transit_strength_final_score",
+    "time": 1764380493.5223937,
+    "total_score": 4,
+    "reference_nak": 19
+  }
+]

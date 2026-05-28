@@ -1,0 +1,11 @@
+Step-by-Step Setup
+Copy the code below and save it as group_chat_filter.py.
+
+Put your exported group chat text file in the same folder and rename it to whatsapp_group_chat.txt.
+
+In the code below, edit the TARGET_PEOPLE list to match the exact names of the people as they appear in your WhatsApp chat log.
+
+if any issues dont hesitate to modify this script a little.
+
+****This is not tested script just giving for reference. If any group i would love to test this in future****
+

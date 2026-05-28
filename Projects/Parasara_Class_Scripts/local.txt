@@ -1,0 +1,53 @@
+horoscope C:\backup\US_word_files\Interview_learnings\python_scripts added to system path ['C:\\backup\\US_word_files\\Interview_learnings\\python_scripts\\Projects\\Parasara_Class_Scripts', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'C:\\backup\\US_word_files\\Interview_learnings\\python_scripts']
+C:\backup\US_word_files\Interview_learnings added to system path ['C:\\backup\\US_word_files\\Interview_learnings\\python_scripts\\Projects\\Parasara_Class_Scripts', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'C:\\backup\\US_word_files\\Interview_learnings\\python_scripts', 'C:\\backup\\US_word_files\\Interview_learnings']
+=== Checking shad_bala Parameter Structure ===
+-----------------------------------------------------------------
+def shad_bala(jd,place):
+    sb = []
+    stb = _sthana_bala(jd, place)
+    #print('_sthana_bala',stb)
+    sb.append(stb)
+    kb = _kaala_bala(jd, place)
+    #print('_kaala_bala',kb)
+    sb.append(kb)
+    dgb = _dig_bala(jd, place)
+    #print('_dig_bala',dgb)
+    sb.append(dgb)
+    cb = _cheshta_bala_new(jd, place,use_epoch_table=True)
+    #print('_cheshta_bala',cb)
+    sb.append(cb)
+    nb = _naisargika_bala(jd, place)
+    #print('_naisargika_bala',nb)
+    sb.append(nb)
+    dkb = _drik_bala(jd, place)
+    #print('_drik_bala',dkb)
+    sb.append(dkb)
+    import numpy as np
+    sbn = np.array(sb).tolist()
+    sb_sum = np.around(np.sum(sbn,0),2).tolist()
+    sb_rupa = [round(ss/60.0,2) for ss in sb_sum]
+    sb_req = const.shad_bala_factors
+-----------------------------------------------------------------
+horoscope C:\backup\US_word_files\Interview_learnings\python_scripts added to system path ['C:\\backup\\US_word_files\\Interview_learnings\\python_scripts\\Projects\\Parasara_Class_Scripts', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'C:\\backup\\US_word_files\\Interview_learnings\\python_scripts']
+C:\backup\US_word_files\Interview_learnings added to system path ['C:\\backup\\US_word_files\\Interview_learnings\\python_scripts\\Projects\\Parasara_Class_Scripts', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\TEXAS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'C:\\backup\\US_word_files\\Interview_learnings\\python_scripts', 'C:\\backup\\US_word_files\\Interview_learnings']
+=== Checking _ishta_phala Parameter Structure ===
+-----------------------------------------------------------------
+def _ishta_phala(jd,place):
+    planet_positions = charts.rasi_chart(jd, place)[:const._pp_count_upto_ketu]
+    ip_score = {const._ADHIMITRA_GREATFRIEND:22,
+                const._MITHRA_FRIEND:15,const._SAMAM_NEUTRAL:8,const._ADHISATHRU_GREATENEMY:4,
+                const._SATHRU_ENEMY:2}
+    ip = [0 for _ in const.SUN_TO_SATURN]
+    for p,(h,_) in planet_positions[1:const._pp_count_upto_saturn]:
+        owner = house.house_owner_from_planet_positions(planet_positions, h)
+        if const.house_strengths_of_planets[p][h]==const._EXALTED_UCCHAM:
+            ip[p] = 60
+        elif h == const.moola_trikona_of_planets[p]: # Moola Trinkona Rasi
+            ip[p] = 45
+        elif const.house_strengths_of_planets[p][h]==const._OWNER_RULER: # Swastha Rasi
+            ip[p] = 30
+        else:
+            ip[p] = ip_score[const.compound_planet_relations[p][owner]]
+    return ip
+
+-----------------------------------------------------------------

@@ -1,0 +1,44 @@
+{
+  "placements": {
+    "Su": {"1": [61, "Sun in 1st: High status, bold, potential eye/heat issues."], "2": [62, "Sun in 2nd: Gains through govt, blunt speech."], "10": [70, "Sun in 10th: Digbala - High career status, govt power."]},
+    "Mo": {"1": [73, "Moon in 1st: Pleasing, moody, strong imagination."], "2": [74, "Moon in 2nd: Great wealth, sweet speech."], "4": [76, "Moon in 4th: High comforts, maternal love."]},
+    "Ma": {"1": [85, "Mars in 1st: Aggressive, leadership qualities."], "6": [90, "Mars in 6th: Shatru-Hanta - No enemy can stand."], "10": [94, "Mars in 10th: Kuladeepaka Yoga - High rise."]}
+  },
+  "combinations": [
+    {
+      "planets": ["Su", "Me"],
+      "house": "any",
+      "sloka": 140,
+      "title": "Budha-Aditya Yoga",
+      "effect": "Intellectual brilliance and high learning capacity."
+    },
+    {
+      "planets": ["Mo", "Ju"],
+      "house": "any",
+      "sloka": 110,
+      "title": "Gaja Kesari Yoga",
+      "effect": "Dominance, wealth, and lasting fame."
+    },
+    {
+      "planets": ["Ve", "Ke"],
+      "house": 6,
+      "sloka": 215,
+      "title": "Venus-Ketu Affliction",
+      "effect": "Hidden health issues or secret opposition in workplace."
+    },
+    {
+      "planets": ["Sa", "Ra"],
+      "house": 12,
+      "sloka": 222,
+      "title": "Shrapit influence",
+      "effect": "Isolation, heavy debts, or foreign related struggles."
+    },
+    {
+      "planets": ["Su", "Me", "Ma"],
+      "house": 8,
+      "sloka": 245,
+      "title": "Triple Malefic Cluster",
+      "effect": "Volatile health and risk of sudden inheritance issues."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+[
+  {
+    "step": "input_row",
+    "time": 1764378754.2633588,
+    "row_data": {
+      "Captain_A_Name": "Moeen Ali",
+      "captain_a_dob": "1987-06-18",
+      "Captain_B_Name": "Jason Roy",
+      "captain_b_dob": "1990-07-21",
+      "match_date": "23/11/2025",
+      "match_time": "15:30",
+      "Match_Place": "Abu Dhabi",
+      "Match_Format": "T20",
+      "timezone": "+04:00",
+      "Real_Toss": "Moeen Ali",
+      "Real_Match": "Moeen Ali",
+      "calc_mode": "sidereal"
+    }
+  },
+  {
+    "step": "set_sidereal_mode",
+    "time": 1764378754.2695487,
+    "mode": "lahiri"
+  },
+  {
+    "step": "timezone_ok",
+    "time": 1764378754.272612,
+    "tz": "UTC+04:00"
+  },
+  {
+    "step": "match_datetime_parsed",
+    "time": 1764378754.2741332,
+    "dt_utc": "2025-11-23 11:30:00+00:00"
+  },
+  {
+    "step": "julian_day",
+    "time": 1764378754.2761824,
+    "jd_ut": 2461002.9791666665
+  },
+  {
+    "step": "planetary_longitudes",
+    "time": 1764378754.277957,
+    "jd_ut": 2461002.9791666665,
+    "longs": {
+      "Sun": 217.20815889664942,
+      "Moon": 252.09572779130187,
+      "Mercury": 210.14540620135284,
+      "Venus": 206.52492004783014,
+      "Mars": 229.52231104116063,
+      "Jupiter": 90.70077721271164,
+      "Saturn": 330.9573922355623,
+      "Rahu": 319.99020229452583,
+      "Ketu": 139.99020229452583
+    }
+  },
+  {
+    "step": "planet_nak_summary",
+    "time": 1764378754.2804947,
+    "planet_naks": {
+      "Sun": 16,
+      "Moon": 18,
+      "Mercury": 15,
+      "Venus": 15,
+      "Mars": 17,
+      "Jupiter": 6,
+      "Saturn": 24,
+      "Rahu": 23,
+      "Ketu": 10
+    }
+  },
+  {
+    "step": "natal_dob_parsed",
+    "time": 1764378754.2883976,
+    "dob_iso": "1987-06-18",
+    "dt_utc": "1987-06-18 00:00:00+00:00"
+  },
+  {
+    "step": "natal_moon_longitude",
+    "time": 1764378754.291139,
+    "jd": 2446964.5,
+    "moon_long": 326.75841715294655,
+    "nakshatra_index": 24
+  },
+  {
+    "step": "natal_dob_parsed",
+    "time": 1764378754.293143,
+    "dob_iso": "1990-07-21",
+    "dt_utc": "1990-07-21 00:00:00+00:00"
+  },
+  {
+    "step": "natal_moon_longitude",
+    "time": 1764378754.2957637,
+    "jd": 2448093.5,
+    "moon_long": 79.19442521545785,
+    "nakshatra_index": 5
+  },
+  {
+    "step": "janma_indices",
+    "time": 1764378754.3018541,
+    "janma_a": 24,
+    "janma_b": 5
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764378754.306862,
+    "janma_index": 24,
+    "regions": {
+      "Stambha": [
+        1,
+        7,
+        14,
+        21
+      ],
+      "Madhya": [
+        0,
+        2,
+        7,
+        9,
+        14,
+        16,
+        21,
+        23
+      ],
+      "Prakaara": [
+        26,
+        3,
+        6,
+        10,
+        13,
+        17,
+        20,
+        24
+      ],
+      "Bahya": [
+        24,
+        25,
+        4,
+        5,
+        11,
+        12,
+        18,
+        19
+      ]
+    }
+  },
+  {
+    "step": "avakhada_pada_lord",
+    "time": 1764378754.30916,
+    "nak": 24,
+    "pada": 3,
+    "midpoint": 328.33333333333337,
+    "lord": "Saturn"
+  },
+  {
+    "step": "mercury_status_final",
+    "time": 1764378754.3114386,
+    "afflicted": false
+  },
+  {
+    "step": "bahya_check",
+    "time": 1764378754.3129375,
+    "kota_paala": "Saturn",
+    "paala_nak": 24,
+    "in_bahya": true,
+    "delta": 2
+  },
+  {
+    "step": "malefic_entry",
+    "time": 1764378754.3182101,
+    "planet": "Saturn",
+    "planet_long": 330.9573922355623,
+    "planet_nak": 24,
+    "delta": -3
+  },
+  {
+    "step": "score_for_natal_result",
+    "time": 1764378754.3239563,
+    "result": {
+      "score": -1,
+      "kota_swami": "Saturn",
+      "kota_paala": "Saturn",
+      "regions": {
+        "Stambha": [
+          1,
+          7,
+          14,
+          21
+        ],
+        "Madhya": [
+          0,
+          2,
+          7,
+          9,
+          14,
+          16,
+          21,
+          23
+        ],
+        "Prakaara": [
+          26,
+          3,
+          6,
+          10,
+          13,
+          17,
+          20,
+          24
+        ],
+        "Bahya": [
+          24,
+          25,
+          4,
+          5,
+          11,
+          12,
+          18,
+          19
+        ]
+      },
+      "details": {
+        "added": [
+          {
+            "reason": "bahya kota_paala",
+            "planet": "Saturn",
+            "nak": 24,
+            "value": 2
+          }
+        ],
+        "subtracted": [
+          {
+            "reason": "malefic_entry",
+            "planet": "Saturn",
+            "nak": 24,
+            "value": -3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "offsets_to_indices",
+    "time": 1764378754.326174,
+    "janma_index": 5,
+    "regions": {
+      "Stambha": [
+        9,
+        15,
+        22,
+        2
+      ],
+      "Madhya": [
+        8,
+        10,
+        15,
+        17,
+        22,
+        24,
+        2,
+        4
+      ],
+      "Prakaara": [
+        7,
+        11,
+        14,
+        18,
+        21,
+        25,
+        1,
+        5
+      ],
+      "Bahya": [
+        5,
+        6,
+        12,
+        13,
+        19,
+        20,
+        26,
+        0
+      ]
+    }
+  },
+  {
+    "step": "avakhada_pada_lord",
+    "time": 1764378754.3284287,
+    "nak": 5,
+    "pada": 3,
+    "midpoint": 75.0,
+    "lord": "Mercury"
+  },
+  {
+    "step": "mercury_status_final",
+    "time": 1764378754.3352876,
+    "afflicted": false
+  },
+  {
+    "step": "region_match",
+    "time": 1764378754.339169,
+    "region": "Stambha",
+    "planet": "Mercury",
+    "planet_long": 210.14540620135284,
+    "planet_nak": 15,
+    "delta": 3
+  },
+  {
+    "step": "region_match",
+    "time": 1764378754.3438907,
+    "region": "Madhya",
+    "planet": "Mercury",
+    "planet_long": 210.14540620135284,
+    "planet_nak": 15,
+    "delta": 3
+  },
+  {
+    "step": "benefic_exit",
+    "time": 1764378754.3537176,
+    "planet": "Venus",
+    "planet_long": 206.52492004783014,
+    "planet_nak": 15,
+    "delta": 1
+  },
+  {
+    "step": "benefic_exit",
+    "time": 1764378754.3574634,
+    "planet": "Mercury (Unafflicted)",
+    "delta": 1
+  },
+  {
+    "step": "score_for_natal_result",
+    "time": 1764378754.360119,
+    "result": {
+      "score": 8,
+      "kota_swami": "Mercury",
+      "kota_paala": "Mercury",
+      "regions": {
+        "Stambha": [
+          9,
+          15,
+          22,
+          2
+        ],
+        "Madhya": [
+          8,
+          10,
+          15,
+          17,
+          22,
+          24,
+          2,
+          4
+        ],
+        "Prakaara": [
+          7,
+          11,
+          14,
+          18,
+          21,
+          25,
+          1,
+          5
+        ],
+        "Bahya": [
+          5,
+          6,
+          12,
+          13,
+          19,
+          20,
+          26,
+          0
+        ]
+      },
+      "details": {
+        "added": [
+          {
+            "reason": "Stambha match for kota_swami",
+            "planet": "Mercury",
+            "nak": 15,
+            "value": 3
+          },
+          {
+            "reason": "Madhya match for kota_swami",
+            "planet": "Mercury",
+            "nak": 15,
+            "value": 3
+          },
+          {
+            "reason": "benefic_exit",
+            "planet": "Venus",
+            "nak": 15,
+            "value": 1
+          },
+          {
+            "reason": "benefic_mercury_exit",
+            "planet": "Mercury",
+            "nak": 15,
+            "value": 1
+          }
+        ],
+        "subtracted": []
+      }
+    }
+  },
+  {
+    "step": "score_summary",
+    "time": 1764378754.3620582,
+    "score_a": -1,
+    "score_b": 8
+  }
+]

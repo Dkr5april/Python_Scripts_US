@@ -1,0 +1,880 @@
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 18
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 2
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 2
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 14
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 6
+DUPLICATES SKIPPED: 7
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 32
+EASY APPLY FOUND: 5
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 12
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 4
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 3
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 10
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 7
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 6
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 5
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 2
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 1
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 32
+EASY APPLY FOUND: 11
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 21
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 32
+EASY APPLY FOUND: 2
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 17
+ALREADY APPLIED SKIPPED: 12
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 16
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 10
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 10
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 18
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 16
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 14
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 32
+EASY APPLY FOUND: 3
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 29
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BASIS Team Lead"
+TOTAL JOBS DETECTED: 14
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 11
+ALREADY APPLIED SKIPPED: 2
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 25
+EASY APPLY FOUND: 11
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 13
+EASY APPLY FOUND: 1
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 7
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 2
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 11
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 10
+EASY APPLY FOUND: 4
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 5
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BASIS Team Lead"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 30
+EASY APPLY FOUND: 1
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 10
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 2
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 12
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 14
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 11
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 16
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 16
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 21
+EASY APPLY FOUND: 6
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 13
+ALREADY APPLIED SKIPPED: 2
+============================================================
+
+============================================================
+KEYWORD: "SAP BASIS Team Lead"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 12
+EASY APPLY FOUND: 5
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 5
+ALREADY APPLIED SKIPPED: 2
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 11
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 17
+EASY APPLY FOUND: 9
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 8
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BASIS Team Lead"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 16
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 6
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP HANA Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Upgrade"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis AWS"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis Azure"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Consultant"
+TOTAL JOBS DETECTED: 2
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Solution Manager"
+TOTAL JOBS DETECTED: 2
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BTP"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP BASIS Team Lead"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 0
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Basis"
+TOTAL JOBS DETECTED: 21
+EASY APPLY FOUND: 7
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 10
+ALREADY APPLIED SKIPPED: 4
+============================================================
+
+============================================================
+KEYWORD: "SAP S4 HANA Basis"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 14
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP RISE"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================
+
+============================================================
+KEYWORD: "SAP Technical Migration"
+TOTAL JOBS DETECTED: 15
+EASY APPLY FOUND: 0
+SUCCESSFUL APPLIES: 0
+MANUAL APPLY JOBS: 0
+DUPLICATES SKIPPED: 15
+ALREADY APPLIED SKIPPED: 0
+============================================================

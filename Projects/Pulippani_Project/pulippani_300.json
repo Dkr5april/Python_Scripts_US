@@ -1,0 +1,88 @@
+{
+  "placements": {
+    "Gu": {
+      "1": [34, "Gulika in 1st: Indicators of ill health, restless nature, and struggles during childhood."],
+      "2": [34, "Gulika in 2nd: Instability of wealth, harsh speech, and potential disputes within the family."],
+      "3": [35, "Gulika in 3rd: Immense courage, victory over enemies, but friction with siblings."],
+      "4": [36, "Gulika in 4th: Lack of domestic peace, concern for mother's health, and caution with vehicles."],
+      "5": [36, "Gulika in 5th: Delay in progeny, mental anxiety, and deep interest in occult sciences."],
+      "6": [36, "Gulika in 6th: Destruction of enemies, success in legal matters, and freedom from disease."],
+      "7": [37, "Gulika in 7th: Conflict between spouses and challenges with partners."],
+      "8": [37, "Gulika in 8th: Risk of sudden accidents and impact on longevity."],
+      "9": [38, "Gulika in 9th: Conflict with father and obstacles in religious activities."],
+      "10": [38, "Gulika in 10th: Instability in profession and obstacles to reputation."],
+      "11": [39, "Gulika in 11th: Extreme financial gains, gold/jewelry, and high social status."],
+      "12": [39, "Gulika in 12th: Wasteful expenditures and insomnia."]
+    },
+    "Su": {
+      "1": [61, "Sun in 1st: Royal temperament, potential eye issues, and short-tempered."],
+      "2": [62, "Sun in 2nd: Financial gains through government and blunt communication."],
+      "3": [40, "Sun in 3rd: Raja Yoga - Victory over enemies and government honors."],
+      "4": [64, "Sun in 4th: Heart health focus and good for academic education."],
+      "6": [41, "Sun in 6th: Potential health issues and eye-related sensitivity."],
+      "10": [40, "Sun in 10th: Digbala - High administrative power and widespread fame."],
+      "11": [40, "Sun in 11th: Great wealth, happiness from children, and fame."],
+      "12": [41, "Sun in 12th: Foreign travels but high wasteful expenditures."]
+    },
+    "Mo": {
+      "1": [42, "Moon in 1st: Immense wealth, land, and vehicle comforts."],
+      "4": [42, "Moon in 4th: High status, royal comforts, and maternal benefits."],
+      "6": [43, "Moon in 6th: Freedom from diseases and family growth."],
+      "7": [42, "Moon in 7th: Pleasing personality and social recognition."],
+      "10": [42, "Moon in 10th: Professional fame and stable career."],
+      "11": [43, "Moon in 11th: Financial gains and unique social identity."],
+      "12": [58, "Moon in 12th: Foreign settlement and travel after initial struggles."]
+    },
+    "Ma": {
+      "1": [44, "Mars in 1st: Acquisition of land, gold, and victory over enemies."],
+      "3": [45, "Mars in 3rd: Loss of property or disputes with relatives."],
+      "4": [44, "Mars in 4th: High rise in career and wealth."],
+      "8": [45, "Mars in 8th: Family conflicts and health warnings."],
+      "10": [44, "Mars in 10th: Kuladeepaka Yoga - Success in foreign lands."],
+      "11": [44, "Mars in 11th: Financial abundance and professional authority."],
+      "12": [45, "Mars in 12th: Legal issues or trouble with elders."]
+    },
+    "Ju": {
+      "4": [46, "Jupiter in 4th: Akhanda Raja Yoga - Wealth increases continuously."],
+      "7": [46, "Jupiter in 7th: Social respect for speech and great donor status."],
+      "8": [47, "Jupiter in 8th: Financial loss and unexpected insults."],
+      "10": [46, "Jupiter in 10th: Blessing of Lakshmi and professional peak."],
+      "12": [47, "Jupiter in 12th: Government-related troubles and loss of peace."]
+    }
+  },
+  "combinations": [
+    {
+      "planets": ["Ju", "Su", "Ra"],
+      "house": "any",
+      "sloka": 55,
+      "title": "Koti Mala Yoga",
+      "effect": "In Jupiter's signs, it brings millions in wealth and vehicle comforts."
+    },
+    {
+      "planets": ["Mo", "Ju"],
+      "house": "any",
+      "sloka": 57,
+      "title": "Shakata Yoga",
+      "effect": "Jupiter in 6/8/12 from Moon; wealth fluctuates like a wheel but intellect remains high."
+    },
+    {
+      "planets": ["Sa", "Ju"],
+      "house": "any",
+      "sloka": 51,
+      "title": "Saturn Remedial",
+      "effect": "Malefic Saturn effects are removed if joined or aspected by Jupiter."
+    },
+    {
+      "planets": ["Mo", "Ma"],
+      "house": "any",
+      "sloka": 99,
+      "title": "Chandra Mangala Yoga",
+      "effect": "Abundant land, property, and extreme courage."
+    }
+  ],
+  "lagna_rules": {
+    "Movable": [52, "Prosperity if the 9th lord is in trines; struggles if the 11th lord is weak."],
+    "Fixed": [53, "Significant Raja Yoga and government gains if the 9th lord is in trines."],
+    "Dual": [54, "Benefics in the 7th house are good; otherwise, risk of property loss or government opposition."]
+  }
+}

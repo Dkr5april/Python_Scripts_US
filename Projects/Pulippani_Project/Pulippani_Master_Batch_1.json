@@ -1,0 +1,24 @@
+{
+  "pulippani_1_50": [
+    { "id": 1, "type": "Invocation", "result": "వినాయక ప్రార్థన మరియు సరస్వతీ దేవి ఆశీస్సులతో శాస్త్ర ప్రారంభం." },
+    { "id": 15, "type": "Exaltation", "planet": "Su", "sign": "Aries", "result": "సూర్యుడు మేషంలో ఉచ్చ స్థితి: అధికారం, కీర్తి మరియు తండ్రి ద్వారా లాభం." },
+    { "id": 16, "type": "Exaltation", "planet": "Mo", "sign": "Taurus", "result": "చంద్రుడు వృషభంలో ఉచ్చ స్థితి: మానసిక ప్రశాంతత, సంపద మరియు తల్లి సౌఖ్యం." },
+    { "id": 17, "type": "Exaltation", "planet": "Ma", "sign": "Capricorn", "result": "కుజుడు మకరంలో ఉచ్చ స్థితి: సాహసం, భూలాభం మరియు శత్రు విజయం." },
+    { "id": 18, "type": "Exaltation", "planet": "Me", "sign": "Virgo", "result": "బుధుడు కన్యలో ఉచ్చ స్థితి: అపారమైన తెలివితేటలు, వ్యాపార లాభం." },
+    { "id": 19, "type": "Exaltation", "planet": "Ju", "sign": "Cancer", "result": "గురువు కర్కాటకంలో ఉచ్చ స్థితి: దైవానుగ్రహం, సంతాన సుఖం మరియు గౌరవం." },
+    { "id": 20, "type": "Exaltation", "planet": "Ve", "sign": "Pisces", "result": "శుక్రుడు మీనంలో ఉచ్చ స్థితి: విలాసవంతమైన జీవితం, కళా నైపుణ్యం." },
+    { "id": 21, "type": "Exaltation", "planet": "Sa", "sign": "Libra", "result": "శని తులలో ఉచ్చ స్థితి: దీర్ఘాయువు, నాయకత్వ లక్షణాలు మరియు శ్రమతో విజయం." },
+    { "id": 22, "type": "Debilitation", "planet": "Su", "sign": "Libra", "result": "సూర్యుడు తులలో నీచ స్థితి: ఆత్మవిశ్వాసం తగ్గడం, ఆరోగ్య సమస్యలు." },
+    { "id": 23, "type": "Debilitation", "planet": "Mo", "sign": "Scorpio", "result": "చంద్రుడు వృశ్చికంలో నీచ స్థితి: మానసిక ఆందోళన, నిర్ణయాల్లో తడబాటు." },
+    { "id": 24, "type": "Debilitation", "planet": "Ma", "sign": "Cancer", "result": "కుజుడు కర్కాటకంలో నీచ స్థితి: కోపం, రక్త సంబంధిత దోషాలు, ఆస్తి తగాదాలు." },
+    { "id": 28, "type": "Strength", "condition": "Kendra Planets", "result": "1, 4, 7, 10 ఇళ్ళలో గ్రహాలు ఉంటే జాతకుడికి జీవితంలో మంచి స్థిరత్వం లభిస్తుంది." },
+    { "id": 34, "type": "Protective", "planet": "Ju", "condition": "In Kendra", "result": "గురువు కేంద్ర స్థానాల్లో (1,4,7,10) ఉంటే కోటి దోషాలను హరిస్తాడు." },
+    { "id": 36, "type": "Digbala", "planet": "Su", "condition": "10th House", "result": "దశమ సూర్యుడు దిగ్బలం: ప్రభుత్వ ఉద్యోగం లేదా రాజకీయ అధికారం." },
+    { "id": 37, "type": "Digbala", "planet": "Ma", "condition": "10th House", "result": "దశమ కుజుడు దిగ్బలం: కులదీపక యోగం, వృత్తిలో తిరుగులేని శక్తి." },
+    { "id": 38, "type": "Digbala", "planet": "Me", "condition": "1st House", "result": "లగ్న బుధుడు దిగ్బలం: అద్భుతమైన జ్ఞాపకశక్తి, గణిత శాస్త్ర ప్రావీణ్యం." },
+    { "id": 39, "type": "Digbala", "planet": "Sa", "condition": "7th House", "result": "సప్తమ శని దిగ్బలం: సమాజంలో గౌరవం, పట్టుదల కలిగిన భాగస్వామి." },
+    { "id": 40, "type": "Digbala", "planet": "Ju", "condition": "1st House", "result": "లగ్న గురువు దిగ్బలం: అందమైన రూపం, జ్ఞానం మరియు ఆచారవంతుడు." },
+    { "id": 41, "type": "Aspect", "planet": "Ju", "condition": "5, 7, 9 Aspect", "result": "గురువు చూసే ఇల్లు గంగానది స్నానం చేసినంత పవిత్రమై, శుభ ఫలితాలనిస్తుంది." },
+    { "id": 50, "type": "Foundation_End", "result": "మొదటి 50 శ్లోకాలతో గ్రహాల బలాబలాల విశ్లేషణ పూర్తయింది." }
+  ]
+}

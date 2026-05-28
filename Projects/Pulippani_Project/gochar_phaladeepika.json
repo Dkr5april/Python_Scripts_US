@@ -1,0 +1,380 @@
+{
+    "Sun": {
+        "1": {
+            "Shukla": "Fatigue, loss of wealth, and irritation.",
+            "Vedha": "11"
+        },
+        "2": {
+            "Shukla": "Loss of wealth and eye troubles.",
+            "Vedha": "9"
+        },
+        "3": {
+            "Shukla": "Victory over enemies, gain of wealth, and happiness.",
+            "Vedha": "12"
+        },
+        "4": {
+            "Shukla": "Diseases and mental sorrow.",
+            "Vedha": "10"
+        },
+        "5": {
+            "Shukla": "Mental agitation and illness to children.",
+            "Vedha": "7"
+        },
+        "6": {
+            "Shukla": "Remedy of diseases, victory, and happiness.",
+            "Vedha": "12"
+        },
+        "7": {
+            "Shukla": "Wearisome traveling and stomach troubles.",
+            "Vedha": "5"
+        },
+        "8": {
+            "Shukla": "Fear and diseases.",
+            "Vedha": "4"
+        },
+        "9": {
+            "Shukla": "Danger and various obstacles.",
+            "Vedha": "2"
+        },
+        "10": {
+            "Shukla": "Success in all undertakings.",
+            "Vedha": "4"
+        },
+        "11": {
+            "Shukla": "New position, honor, and wealth.",
+            "Vedha": "1"
+        },
+        "12": {
+            "Shukla": "Heavy expenditure and sorrow.",
+            "Vedha": "6"
+        }
+    },
+    "Moon": {
+        "1": {
+            "Shukla": "Recovery from sickness, comforts, and delicious food.",
+            "Vedha": "5"
+        },
+        "2": {
+            "Shukla": "Sorrows, miseries, and many diseases.",
+            "Vedha": "None"
+        },
+        "3": {
+            "Shukla": "Victory over enemies and gain of clothes/money.",
+            "Vedha": "9"
+        },
+        "4": {
+            "Shukla": "Domestic quarrels and lack of peace.",
+            "Vedha": "None"
+        },
+        "5": {
+            "Shukla": "Mental agitation and financial loss.",
+            "Vedha": "None"
+        },
+        "6": {
+            "Shukla": "Freedom from diseases and gain of happiness.",
+            "Vedha": "12"
+        },
+        "7": {
+            "Shukla": "Conveyance facilities and increase of income.",
+            "Vedha": "2"
+        },
+        "8": {
+            "Shukla": "Unbearable sorrow, danger to life, and mental agony.",
+            "Vedha": "None"
+        },
+        "9": {
+            "Shukla": "Danger and various obstacles.",
+            "Vedha": "None"
+        },
+        "10": {
+            "Shukla": "Success in all undertakings.",
+            "Vedha": "4"
+        },
+        "11": {
+            "Shukla": "Prosperity and joy.",
+            "Vedha": "8"
+        },
+        "12": {
+            "Shukla": "Expenditure and fatigue.",
+            "Vedha": "None"
+        }
+    },
+    "Mars": {
+        "1": {
+            "Shukla": "Decline of wealth and health issues.",
+            "Vedha": "None"
+        },
+        "2": {
+            "Shukla": "Fear and loss of money.",
+            "Vedha": "None"
+        },
+        "3": {
+            "Shukla": "Gain of wealth and success.",
+            "Vedha": "12"
+        },
+        "4": {
+            "Shukla": "Stomach troubles and sorrow.",
+            "Vedha": "None"
+        },
+        "5": {
+            "Shukla": "Disease and fear from enemies.",
+            "Vedha": "None"
+        },
+        "6": {
+            "Shukla": "Success in all undertakings.",
+            "Vedha": "9"
+        },
+        "7": {
+            "Shukla": "Conflict with spouse and eye troubles.",
+            "Vedha": "None"
+        },
+        "8": {
+            "Shukla": "Sorrow and physical weakness.",
+            "Vedha": "None"
+        },
+        "9": {
+            "Shukla": "Loss of wealth and mental distress.",
+            "Vedha": "None"
+        },
+        "10": {
+            "Shukla": "Professional obstacles.",
+            "Vedha": "None"
+        },
+        "11": {
+            "Shukla": "All-round success and gain of land.",
+            "Vedha": "5"
+        },
+        "12": {
+            "Shukla": "Loss and heavy expenditure.",
+            "Vedha": "None"
+        }
+    },
+    "Mercury": {
+        "1": {
+            "Shukla": "Unpleasant news and loss of money.",
+            "Vedha": "None"
+        },
+        "2": {
+            "Shukla": "Gain of wealth and success.",
+            "Vedha": "5"
+        },
+        "3": {
+            "Shukla": "Fear from enemies and sorrow.",
+            "Vedha": "None"
+        },
+        "4": {
+            "Shukla": "Gain of wealth and increase in family.",
+            "Vedha": "3"
+        },
+        "5": {
+            "Shukla": "Quarrels with wife and children.",
+            "Vedha": "None"
+        },
+        "6": {
+            "Shukla": "Victory and success.",
+            "Vedha": "9"
+        },
+        "7": {
+            "Shukla": "Domestic quarrels.",
+            "Vedha": "None"
+        },
+        "8": {
+            "Shukla": "Gain of wealth and children.",
+            "Vedha": "1"
+        },
+        "9": {
+            "Shukla": "Obstacles in work.",
+            "Vedha": "None"
+        },
+        "10": {
+            "Shukla": "Happiness and professional gains.",
+            "Vedha": "7"
+        },
+        "11": {
+            "Shukla": "Prosperity and joy.",
+            "Vedha": "12"
+        },
+        "12": {
+            "Shukla": "Loss of money and fear.",
+            "Vedha": "None"
+        }
+    },
+    "Jupiter": {
+        "1": {
+            "Shukla": "Heavy expenditure and sorrow.",
+            "Vedha": "None"
+        },
+        "2": {
+            "Shukla": "Gain of wealth and domestic happiness.",
+            "Vedha": "12"
+        },
+        "3": {
+            "Shukla": "Obstacles and fear.",
+            "Vedha": "None"
+        },
+        "4": {
+            "Shukla": "Domestic sorrow.",
+            "Vedha": "None"
+        },
+        "5": {
+            "Shukla": "Birth of children and prosperity.",
+            "Vedha": "4"
+        },
+        "6": {
+            "Shukla": "Health issues and fear.",
+            "Vedha": "None"
+        },
+        "7": {
+            "Shukla": "Marital happiness and gain of wealth.",
+            "Vedha": "3"
+        },
+        "8": {
+            "Shukla": "Sickness and fatigue.",
+            "Vedha": "None"
+        },
+        "9": {
+            "Shukla": "Success in all endeavors.",
+            "Vedha": "10"
+        },
+        "10": {
+            "Shukla": "Professional setbacks.",
+            "Vedha": "None"
+        },
+        "11": {
+            "Shukla": "All-round success.",
+            "Vedha": "8"
+        },
+        "12": {
+            "Shukla": "Expenditure on good causes.",
+            "Vedha": "None"
+        }
+    },
+    "Venus": {
+        "1": {
+            "Shukla": "Comforts and happiness.",
+            "Vedha": "8"
+        },
+        "2": {
+            "Shukla": "Gain of money and clothes.",
+            "Vedha": "7"
+        },
+        "3": {
+            "Shukla": "Success and honor.",
+            "Vedha": "1"
+        },
+        "4": {
+            "Shukla": "Comforts and increase in friends.",
+            "Vedha": "10"
+        },
+        "5": {
+            "Shukla": "Birth of children.",
+            "Vedha": "9"
+        },
+        "6": {
+            "Shukla": "Diseases and sorrow.",
+            "Vedha": "None"
+        },
+        "7": {
+            "Shukla": "Distress to spouse.",
+            "Vedha": "None"
+        },
+        "8": {
+            "Shukla": "Comforts and prosperity.",
+            "Vedha": "5"
+        },
+        "9": {
+            "Shukla": "Happiness and success.",
+            "Vedha": "11"
+        },
+        "10": {
+            "Shukla": "Quarrels and misery.",
+            "Vedha": "None"
+        },
+        "11": {
+            "Shukla": "Gain of wealth.",
+            "Vedha": "3"
+        },
+        "12": {
+            "Shukla": "Success and comforts.",
+            "Vedha": "6"
+        }
+    },
+    "Saturn": {
+        "1": {
+            "Shukla": "Heavy mental agony and fatigue.",
+            "Vedha": "None"
+        },
+        "2": {
+            "Shukla": "Loss of money and eye trouble.",
+            "Vedha": "None"
+        },
+        "3": {
+            "Shukla": "Gain of position and wealth.",
+            "Vedha": "12"
+        },
+        "4": {
+            "Shukla": "Fear from enemies and sorrow.",
+            "Vedha": "None"
+        },
+        "5": {
+            "Shukla": "Mental distress and financial loss.",
+            "Vedha": "None"
+        },
+        "6": {
+            "Shukla": "Victory over enemies.",
+            "Vedha": "9"
+        },
+        "7": {
+            "Shukla": "Fatigue and traveling.",
+            "Vedha": "None"
+        },
+        "8": {
+            "Shukla": "Danger and various obstacles.",
+            "Vedha": "None"
+        },
+        "9": {
+            "Shukla": "Misery and obstacles.",
+            "Vedha": "None"
+        },
+        "10": {
+            "Shukla": "Professional difficulties.",
+            "Vedha": "None"
+        },
+        "11": {
+            "Shukla": "Gain of honors and wealth.",
+            "Vedha": "5"
+        },
+        "12": {
+            "Shukla": "Heavy expenditure and danger.",
+            "Vedha": "None"
+        }
+    },
+    "Rahu": {
+        "3": {
+            "Shukla": "Victory and success.",
+            "Vedha": "12"
+        },
+        "6": {
+            "Shukla": "Freedom from enemies.",
+            "Vedha": "9"
+        },
+        "11": {
+            "Shukla": "Great prosperity.",
+            "Vedha": "5"
+        }
+    },
+    "Ketu": {
+        "3": {
+            "Shukla": "Victory and success.",
+            "Vedha": "12"
+        },
+        "6": {
+            "Shukla": "Freedom from enemies.",
+            "Vedha": "9"
+        },
+        "11": {
+            "Shukla": "Great prosperity.",
+            "Vedha": "5"
+        }
+    }
+}
