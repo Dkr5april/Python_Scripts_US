@@ -1,27 +1,26 @@
 import streamlit as st
 import json
 import re
+import os
 
 # పేజీ సెటప్
 st.set_page_config(page_title="Vedic Astrology Engine", layout="wide")
 
 # డేటా లోడ్ చేయడం
 def load_data():
-    # 1. ప్రస్తుత పైథాన్ ఫైల్ ఉన్న ఫోల్డర్ పాత్‌ను కనుగొనండి
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # 1. ప్రస్తుత వర్కింగ్ డైరెక్టరీని తీసుకోండి
+    current_dir = os.getcwd()
     
-    # 2. ఆ ఫోల్డర్ లోపల 'karakatwas.json' ఫైల్ పాత్‌ను తయారు చేయండి
-    json_path = os.path.join(script_dir, 'karakatwas.json')
-    
-    # డీబగ్గింగ్ కోసం మాత్రమే (యాప్‌లో కనిపిస్తుంది)
-    # st.write(f"Looking for file at: {json_path}")
+    # 2. JSON ఫైల్ పాత్
+    json_path = os.path.join(current_dir, 'karakatwas.json')
     
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
+        # ఒకవేళ ఫైల్ దొరక్కపోతే, సర్వర్‌లో ఏముందో చూపిస్తుంది
         st.error(f"Error: ఫైల్ ఇక్కడ దొరకలేదు: {json_path}")
-        st.write("ఈ ఫోల్డర్‌లో ఉన్న ఫైల్స్ ఇవి:", os.listdir(script_dir))
+        st.write("ఈ ఫోల్డర్‌లో ఉన్న ఫైల్స్ ఇవి:", os.listdir(current_dir))
         return None
 
 # లాంగ్వేజ్ ఎక్స్‌ట్రాక్షన్ లాజిక్
