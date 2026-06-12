@@ -12,7 +12,7 @@ def load_data():
         with open('Astrology_data_updated1.json', 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        st.error("Error: 'Astrology_data_updated1.json' దొరకలేదు. ఫైల్ పేరు కరెక్ట్‌గా ఉందో లేదో చూడండి.")
+        st.error("Error: 'karakatwas.json' దొరకలేదు. ఫైల్ పేరు కరెక్ట్‌గా ఉందో లేదో చూడండి.")
         return None
 
 # లాంగ్వేజ్ ఎక్స్‌ట్రాక్షన్ లాజిక్
