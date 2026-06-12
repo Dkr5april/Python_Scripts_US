@@ -7,12 +7,21 @@ st.set_page_config(page_title="Vedic Astrology Engine", layout="wide")
 
 # డేటా లోడ్ చేయడం
 def load_data():
-    # పాత get_resource_path వాడకండి, నేరుగా ఫైల్ పేరు ఇవ్వండి
+    # 1. ప్రస్తుత పైథాన్ ఫైల్ ఉన్న ఫోల్డర్ పాత్‌ను కనుగొనండి
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # 2. ఆ ఫోల్డర్ లోపల 'karakatwas.json' ఫైల్ పాత్‌ను తయారు చేయండి
+    json_path = os.path.join(script_dir, 'karakatwas.json')
+    
+    # డీబగ్గింగ్ కోసం మాత్రమే (యాప్‌లో కనిపిస్తుంది)
+    # st.write(f"Looking for file at: {json_path}")
+    
     try:
-        with open('Astrology_data_updated1.json', 'r', encoding='utf-8') as f:
+        with open(json_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        st.error("Error: 'karakatwas.json' దొరకలేదు. ఫైల్ పేరు కరెక్ట్‌గా ఉందో లేదో చూడండి.")
+        st.error(f"Error: ఫైల్ ఇక్కడ దొరకలేదు: {json_path}")
+        st.write("ఈ ఫోల్డర్‌లో ఉన్న ఫైల్స్ ఇవి:", os.listdir(script_dir))
         return None
 
 # లాంగ్వేజ్ ఎక్స్‌ట్రాక్షన్ లాజిక్
