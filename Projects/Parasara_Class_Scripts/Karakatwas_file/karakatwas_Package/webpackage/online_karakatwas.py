@@ -7,11 +7,12 @@ st.set_page_config(page_title="Vedic Astrology Engine", layout="wide")
 
 # డేటా లోడ్ చేయడం
 def load_data():
+    # పాత get_resource_path వాడకండి, నేరుగా ఫైల్ పేరు ఇవ్వండి
     try:
         with open('Astrology_data_updated1.json', 'r', encoding='utf-8') as f:
             return json.load(f)
-    except Exception as e:
-        st.error(f"Error loading data: {e}")
+    except FileNotFoundError:
+        st.error("Error: 'Astrology_data_updated1.json' దొరకలేదు. ఫైల్ పేరు కరెక్ట్‌గా ఉందో లేదో చూడండి.")
         return None
 
 # లాంగ్వేజ్ ఎక్స్‌ట్రాక్షన్ లాజిక్
