@@ -1,4 +1,3 @@
-import tkinter as tk
 from config import AppConfig
 
 class AstrologyReportUI:
