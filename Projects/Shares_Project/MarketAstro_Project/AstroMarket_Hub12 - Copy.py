@@ -154,12 +154,12 @@ for entity in execution_order:
         
     table_rows += f"""
     <tr style="border-bottom: 1px solid #21262d;">
-        <td style="padding:6px; color:{ent_color}; font-weight:bold;">{entity}</td>
-        <td style="padding:6px; color:{star_display_color};">{star_name} ({lord_name})</td>
+        <td style="padding:8px; color:{ent_color}; font-weight:bold;">{entity}</td>
+        <td style="padding:8px; color:{star_display_color};">{star_name} ({lord_name})</td>
         <td style="padding:8px; color:#ffffff; font-weight:bold; text-align:center;">{house_num}</td>
-        <td style="padding:6px; color:#ffffff; text-align:center;">{details.get('pada', '-')}</td>
-        <td style="padding:6px; color:#ffffff;">{sign_relative_deg:.4f}°</td>
-        <td style="padding:6px; color:{status_color}; font-weight:bold;">{status_str}</td>
+        <td style="padding:8px; color:#ffffff; text-align:center;">{details.get('pada', '-')}</td>
+        <td style="padding:8px; color:#ffffff;">{sign_relative_deg:.4f}°</td>
+        <td style="padding:8px; color:{status_color}; font-weight:bold;">{status_str}</td>
     </tr>
     """
 
@@ -184,7 +184,7 @@ def add_rule_line(label, value):
         display = text
 
     rules_rows += f"""
-    <div class="rule-line">
+    <div style="margin-bottom:12px; font-size:14px; font-family:'Courier New';">
         <span style="color:white;">{label.strip()}:</span>
         <span style="color:{color}; font-weight:bold;">{display}</span>
     </div>
@@ -219,20 +219,18 @@ y_chain_val = logic.get("Y-Chain", logic.get("YC", "N/A"))
 if view_mode == "KP Rules Detailed Screen":
     dashboard_grid_content = f"""
     <div style="width: 100%;">
-        <div class="box-container" style="padding: 20px;">
-            <div class="box-title" style="font-size: 1.1rem; margin-bottom: 20px;">KP Trading Rules (Detailed View)</div>
-            <div class="rule-header">
+        <div class="box-container" style="min-height: 520px; padding: 25px;">
+            <div class="box-title" style="font-size: 15px; margin-bottom: 20px;">KP Trading Rules (Detailed Screen View)</div>
+            <div style="margin-bottom: 24px; color:#ffb86c; font-size:18px; font-weight:bold; font-family:'Courier New'; border-bottom: 1px dashed #30363d; padding-bottom: 10px;">
                 X: {logic.get('X', 'Mo')} | Y: {logic.get('Y', 'Mo')}
             </div>
             <div style="margin-top: 15px;">
                 {rules_rows}
             </div>
-            <div style="margin-top: 30px; border-top: 1px solid #38444d; padding-top: 15px;">
-                <div style="color: #8b949e; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 10px; font-weight: bold;">Chain Depths Reference:</div>
-                <div class="chain-box-container">
-                    <span class="chain-item">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></span>
-                    <span class="chain-item">Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></span>
-                </div>
+            <div style="margin-top: 40px; border-top: 1px solid #38444d; padding-top: 20px;">
+                <div style="color: #8b949e; font-size: 13px; text-transform: uppercase; margin-bottom: 10px; font-weight: bold;">Chain Depths Reference:</div>
+                <span style="font-size:14px; margin-right: 30px; font-family:'Courier New';">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></span>
+                <span style="font-size:14px; font-family:'Courier New';">Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></span>
             </div>
         </div>
     </div>
@@ -240,35 +238,35 @@ if view_mode == "KP Rules Detailed Screen":
 else:
     dashboard_grid_content = f"""
     <div class="dashboard-grid">
-        <div class="box-container table-scroll-container">
+        <div class="box-container">
             <div class="box-title">Sidereal Celestial Metrics (Lahiri)</div>
             <table>
                 <tr style="border-bottom: 2px solid #38444d; color:#ff79c6; font-weight:bold;">
-                    <th style="padding:6px;">Entity</th>
-                    <th style="padding:6px;">Star (Lord)</th>
-                    <th style="padding:6px; text-align:center;">House</th>
-                    <th style="padding:6px; text-align:center;">Pada</th>
-                    <th style="padding:6px;">Deg</th>
-                    <th style="padding:6px;">Status</th>
+                    <th style="padding:8px;">Entity</th>
+                    <th style="padding:8px;">Star (Lord)</th>
+                    <th style="padding:8px; text-align:center;">House</th>
+                    <th style="padding:8px; text-align:center;">Pada</th>
+                    <th style="padding:8px;">Deg</th>
+                    <th style="padding:8px;">Status</th>
                 </tr>
                 {table_rows}
             </table>
         </div>
-        <div class="sidebar-widgets-stack">
+        <div>
             <div class="box-container">
                 <div class="box-title">6-Hour Market Dasa</div>
-                <div style="color:#8be9fd; font-weight:bold; margin-bottom:6px; font-size:0.8rem;">Maha &gt; Antar &gt; Pratyantar:</div>
-                <div class="dasa-highlight-text">{dasa_text}</div>
+                <div style="color:#8be9fd; font-weight:bold; margin-bottom:6px; font-size:13px;">Maha &gt; Antar &gt; Pratyantar:</div>
+                <div style="color:#ff79c6; font-size:17px; font-weight:bold; letter-spacing:0.5px;">{dasa_text}</div>
             </div>
             <div class="box-container">
                 <div class="box-title">KP Trading Rules</div>
-                <div class="rule-header">X: {logic.get('X', 'Mo')} | Y: {logic.get('Y', 'Mo')}</div>
+                <div style="margin-bottom:14px; color:#ffb86c; font-size:15px; font-weight:bold;">X: {logic.get('X', 'Mo')} | Y: {logic.get('Y', 'Mo')}</div>
                 {rules_rows}
             </div>
             <div class="box-container">
                 <div class="box-title">Stellar Chain Depth</div>
-                <div style="margin-bottom:6px;">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></div>
-                <div>Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></div>
+                <div style="font-size:14px; margin-bottom:6px;">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></div>
+                <div style="font-size:14px;">Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></div>
             </div>
         </div>
     </div>
@@ -278,50 +276,40 @@ complete_html_page = f"""
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {{
             background-color: #0c0f12;
             color: #ffffff;
             font-family: 'Courier New', Courier, monospace;
             margin: 0;
-            padding: 8px;
-            font-size: 14px;
+            padding: 10px;
         }}
         .header-banner {{
             background-color: #161b22;
-            padding: 10px;
+            padding: 12px;
             border-radius: 4px;
             border: 1px solid #38444d;
-            margin-bottom: 12px;
-            font-size: 0.95rem;
-            line-height: 1.4;
+            margin-bottom: 15px;
+            font-size: 15px;
         }}
         .dashboard-grid {{
             display: grid;
-            grid-template-columns: 1.3fr 0.7fr;
-            gap: 12px;
-        }}
-        .sidebar-widgets-stack {{
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+            grid-template-columns: 1.25fr 0.75fr;
+            gap: 15px;
         }}
         .box-container {{
             border: 1px solid #38444d;
             border-radius: 4px;
-            padding: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
             background-color: #000000;
-        }}
-        .table-scroll-container {{
-            overflow-x: auto;
         }}
         .box-title {{
             color: #8b949e;
             border-bottom: 1px dashed #30363d;
             padding-bottom: 6px;
-            margin-bottom: 10px;
-            font-size: 0.85rem;
+            margin-bottom: 12px;
+            font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: bold;
@@ -330,68 +318,12 @@ complete_html_page = f"""
             width: 100%;
             border-collapse: collapse;
             text-align: left;
-            font-size: 0.9rem;
-        }}
-        .rule-line {{
-            margin-bottom: 10px;
-            font-size: 0.95rem;
-        }}
-        .rule-header {{
-            margin-bottom: 12px; 
-            color:#ffb86c; 
-            font-size: 1rem; 
-            font-weight: bold;
-        }}
-        .dasa-highlight-text {{
-            color: #ff79c6;
-            font-size: 1.1rem;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }}
-        .chain-box-container {{
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-        }}
-
-        /* ==========================================================
-           📱 MOBILE RESPONSIVE MEDIA QUERIES (Screens under 768px)
-           ========================================================== */
-        @media (max-width: 768px) {{
-            body {{
-                font-size: 12px;
-                padding: 4px;
-            }}
-            .header-banner {{
-                font-size: 0.8rem;
-                padding: 8px;
-            }}
-            .dashboard-grid {{
-                grid-template-columns: 1fr; /* Stacks layout to single column */
-                gap: 10px;
-            }}
-            table {{
-                font-size: 0.78rem; /* Shrinks the metrics table to prevent breaking lines */
-            }}
-            .rule-line {{
-                font-size: 0.85rem;
-            }}
-            .rule-header {{
-                font-size: 0.9rem;
-            }}
-            .dasa-highlight-text {{
-                font-size: 0.95rem;
-            }}
-            .chain-box-container {{
-                flex-direction: column;
-                gap: 6px;
-            }}
         }}
     </style>
 </head>
 <body>
     <div class="header-banner">
-        <span style="color:#ff79c6; font-weight:bold;">TARGET:</span> {view_date.strftime('%Y-%m-%d %H:%M:%S')}<br class="mobile-break"> 
+        <span style="color:#ff79c6; font-weight:bold;">TARGET:</span> {view_date.strftime('%Y-%m-%d %H:%M:%S')} | 
         <span style="color:#f1fa8c; font-weight:bold;">LOCATION:</span> {st.session_state.location_name.upper()}
     </div>
     {dashboard_grid_content}
@@ -399,5 +331,5 @@ complete_html_page = f"""
 </html>
 """
 
-# 10. Render Component Canvas - container height auto expands cleanly on mobile
-components.html(complete_html_page, height=800, scrolling=True)
+# 10. Render Component Canvas
+components.html(complete_html_page, height=720, scrolling=False)
