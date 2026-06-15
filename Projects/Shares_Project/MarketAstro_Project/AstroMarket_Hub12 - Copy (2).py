@@ -18,10 +18,9 @@ def load_engine():
 
 astro = load_engine()
 
-# 3. Handle Session State Controls (Initializes dynamically to today's date, but hardcodes time to 9:30 AM)
+# 3. Handle Session State Controls (Initializes to Mumbai defaults)
 if "view_date" not in st.session_state:
-    # Gets today's real-time date, but sets hours=9, minutes=30, seconds=0
-    st.session_state.view_date = datetime.now().replace(hour=9, minute=30, second=0, microsecond=0)
+    st.session_state.view_date = datetime(2026, 6, 14, 9, 30, 0)
 
 if "lat" not in st.session_state or "lon" not in st.session_state:
     st.session_state.lat = 18.5800
