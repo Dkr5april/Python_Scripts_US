@@ -1,16 +1,3 @@
-import os
-import sys
-
-# 1. Get the current directory of this specific script file
-current_dir = os.path.dirname(os.path.abspath(__file__))
-
-# 2. Tell Python to look inside this folder for modules like 'engine' and 'logic'
-if current_dir not in sys.path:
-    sys.path.append(current_dir)
-
-# ==========================================================
-# NOW your existing imports will work perfectly on the cloud:
-# ==========================================================
 import streamlit as st
 import streamlit.components.v1 as components
 from datetime import datetime, timedelta
