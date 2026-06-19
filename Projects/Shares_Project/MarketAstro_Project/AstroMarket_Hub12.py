@@ -14,6 +14,7 @@ if current_dir not in sys.path:
 # CORE DASHBOARD DEPENDENCIES
 # ==========================================================
 import streamlit as st
+import streamlit.components.v1 as components  # <-- ADD THIS LINE HERE
 
 # Core Backend Framework Modules
 import config
@@ -455,9 +456,7 @@ complete_html_page = f"""
 # ==========================================================
 # 10. IFRAME COMPONENT RENDER CANVAS (FIXED)
 # ==========================================================
-# Since we are feeding the HTML source raw, we can pass complete_html_page 
-# directly to the HTML component runner without needing url encoding!
-st.components.v1.html(
+components.html(
     complete_html_page,
     height=950,
     scrolling=True
