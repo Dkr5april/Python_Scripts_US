@@ -249,18 +249,21 @@ for key, value in logic.items():
     key_text = str(key).strip()
     key_upper = key_text.upper()
 
-    if key_upper in ["X", "Y", "XC", "YC"]:
-        continue
-
     if key_upper.startswith(("R1", "R2", "R3", "R4", "R5")) or "CHAIN" in key_upper:
-        if isinstance(value, (list, dict)):
-            for item in (value if isinstance(value, list) else value.items()):
+        if isinstance(value, dict):
+            # Cleanly handle dictionaries by unpacking keys and values
+            for k, v in value.items():
+                add_rule_line(str(k), str(v))
+        elif isinstance(value, list):
+            # Handle lists normally
+            for item in value:
                 txt = str(item)
                 if ":" in txt:
                     add_rule_line(txt.split(":")[0], txt.split(":")[-1])
                 else:
                     add_rule_line(key_text, txt)
         else:
+            # Handle standalone string/scalar values
             if ":" in str(value):
                 add_rule_line(str(value).split(":")[0], str(value).split(":")[-1])
             else:
@@ -450,14 +453,14 @@ complete_html_page = f"""
 """
 
 # ==========================================================
-# 10. IFRAME COMPONENT RENDER CANVAS
+# 10. IFRAME COMPONENT RENDER CANVAS (FIXED)
 # ==========================================================
-encoded_html = urllib.parse.quote(complete_html_page)
-
-st.iframe(
-    f"data:text/html;charset=utf-8,{encoded_html}",
+# Since we are feeding the HTML source raw, we can pass complete_html_page 
+# directly to the HTML component runner without needing url encoding!
+st.components.v1.html(
+    complete_html_page,
     height=950,
-    width="stretch"
+    scrolling=True
 )
 
 # ==========================================================
