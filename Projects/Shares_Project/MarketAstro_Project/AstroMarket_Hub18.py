@@ -21,9 +21,8 @@ from engine.astro_engine import AstroEngine
 from engine.market_dasa import get_market_dasa_levels
 from logic.rules_processor import evaluate_market_rules
 
-# Import the Wave Trend Analyser and Factory Module
+# Import the Wave Trend Analyser
 from logic.market_trend_analyzer import analyze_market_trends, create_compact_trend_chart
-from logic.wave_trend_factory import generate_wave_trends, build_trend_html_blocks
 
 # 1. Page Configuration
 st.set_page_config(page_title="KP Astro Market Dashboard", layout="wide")
@@ -35,14 +34,16 @@ def load_engine():
 
 astro = load_engine()
 
-# 3. Handle Session State Controls (Initializes dynamically to today's date, but hardcodes time to 9:30 AM)
+# 3. Handle Session State Controls (Forces initialization to Mumbai IST Date)
 if "view_date" not in st.session_state:
-    st.session_state.view_date = datetime.now().replace(hour=9, minute=30, second=0, microsecond=0)
+    utc_now = datetime.utcnow()
+    ist_now = utc_now + timedelta(hours=5, minutes=30)
+    st.session_state.view_date = ist_now.replace(hour=9, minute=30, second=0, microsecond=0)
 
 if "lat" not in st.session_state or "lon" not in st.session_state:
-    st.session_state.lat = 16.1176
-    st.session_state.lon = 80.9314
-    st.session_state.location_name = "Default (Machilipatnam)"
+    st.session_state.lat = 18.5800
+    st.session_state.lon = 72.5000
+    st.session_state.location_name = "Mumbai (Bombay)"
 
 # 4. Sidebar Controller Panel
 st.sidebar.header("⏱️ Control Panel")
@@ -51,7 +52,7 @@ location_options = ["Mumbai (Bombay)", "Default (Machilipatnam)"]
 try:
     current_idx = location_options.index(st.session_state.location_name)
 except (ValueError, AttributeError):
-    current_idx = 1
+    current_idx = 0
 
 location_option = st.sidebar.selectbox(
     "Select Location",
@@ -90,7 +91,6 @@ with col_b2:
         st.session_state.view_date += timedelta(days=1)
         st.rerun()
 
-# --- SCREEN TOGGLE FEATURE ---
 st.sidebar.markdown("---")
 st.sidebar.subheader("🖥️ View View Mode")
 view_mode = st.sidebar.radio(
@@ -108,7 +108,7 @@ if hasattr(config, 'LONGITUDE'): config.LONGITUDE = st.session_state.lon
 
 view_date = st.session_state.view_date
 
-# Fetch Calculations Snapshot
+# Fetch Calculations Snapshot Data Match tracking main.py pipeline
 data = astro.get_full_snapshot(view_date)
 logic = evaluate_market_rules(data, view_date)
 
@@ -116,40 +116,68 @@ m_lon = data["Mo"]["lon"]
 m_lord = data["Mo"]["lord"]
 dasa = get_market_dasa_levels(view_date, m_lon, m_lord)
 
-# Parse underlying chains out of execution scope safely
+# Parse underlying chains out of evaluate_market_rules execution scope safely
 X = data["Mo"]["lord"]
 Y = data[X]["lord"] if X in data else "N/A"
 
-# CRITICAL FIX: Absolute exclusion of Asc and Lagna from chains
-x_chain_raw = [p for p, d in data.items() if d.get("lord") == X and p not in ["Mo", X, "Asc", "Lagna"]]
-y_chain_raw = [p for p, d in data.items() if d.get("lord") == Y and p not in ["Mo", X, Y, "Asc", "Lagna"]]
+# Gather sub-planets sharing stars (Excluding Mo, Asc, Lagna, and core nodes)
+x_sub_planets = [p for p, d in data.items() if d["lord"] == X and p not in ["Mo", X, "Asc", "Lagna"]]
+y_sub_planets = [p for p, d in data.items() if d["lord"] == Y and p not in ["Mo", X, Y, "Asc", "Lagna"]]
 
-# Clear Node Formatting (e.g., X1 = Sa, Y1 = None)
-if x_chain_raw:
-    x_chain_val = ", ".join([f"X{i+1} = {p}" for i, p in enumerate(x_chain_raw)])
-else:
-    x_chain_val = "None (0 Subs)"
-
-if y_chain_raw:
-    y_chain_val = ", ".join([f"Y{i+1} = {p}" for i, p in enumerate(y_chain_raw)])
-else:
-    y_chain_val = "None (0 Subs)"
+# Dynamic Reference Depth Text Strings
+x_chain_val = ", ".join(x_sub_planets) if x_sub_planets else X
+y_chain_val = ", ".join(y_sub_planets) if y_sub_planets else (Y if Y != "N/A" else "None")
 
 # ==========================================================
-# DYNAMIC ASTROLOGICAL WAVE TRENDS CALCULATOR (MODULAR)
+# DYNAMIC ASTROLOGICAL WAVE TRENDS CALCULATOR
 # ==========================================================
-# Let the factory cleanly manage dependencies, counts, and direct fallback overrides
-trend_nodes = generate_wave_trends(
-    data=data,
-    analyze_market_trends_func=analyze_market_trends,
-    X=X,
-    Y=Y,
-    x_chain_raw=x_chain_raw,
-    y_chain_raw=y_chain_raw
-)
+wave_safe_data = {k: v for k, v in data.items() if k not in ["Asc", "Lagna"]}
 
-# Convert structural lists into layout content blocks dynamically
-trend_html_blocks = build_trend_html_blocks(trend_nodes)
+# FIXED: Reverted to positional argument to match your backend function signature
+raw_trend_nodes = analyze_market_trends(wave_safe_data)
+trend_html_blocks = ""
+filtered_trend_nodes = []
+
+if raw_trend_nodes:
+    for node_org in raw_trend_nodes:
+        node = node_org.copy()
+        node_label = node.get('label', '')
+        if node_label in ["Asc", "Lagna", "N/A", ""]:
+            continue
+            
+        # Match against structural chains directly to assign labels and filter out non-chain elements
+        is_x_sub = node_label in x_sub_planets
+        is_y_sub = node_label in y_sub_planets
+        
+        if is_x_sub:
+            idx = x_sub_planets.index(node_label) + 1
+            node['display_label'] = f"X{idx} ({node_label}) ➔ Moon"
+            filtered_trend_nodes.append(node)
+        elif is_y_sub:
+            idx = y_sub_planets.index(node_label) + 1
+            node['display_label'] = f"Y{idx} ({node_label}) ➔ Moon"
+            filtered_trend_nodes.append(node)
+        elif node_label == X and not x_sub_planets:
+            node['display_label'] = f"X ({node_label}) ➔ Moon"
+            filtered_trend_nodes.append(node)
+        else:
+            # Skip any planet that isn't an active X/Y chain item
+            continue
+
+        trend_html_blocks += f"""
+        <div style="border: 1px solid #38444d; padding: 12px; border-radius: 4px; background-color: #0c0f12; margin-bottom: 10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
+                <span style="color:#ffffff; font-weight:bold; font-size:14px;">{node['display_label']}</span>
+                <span style="color:{node['color']}; font-weight:bold; font-size:13px; text-transform:uppercase;">{node['trend']}</span>
+            </div>
+            <div style="color:#8b949e; font-size:12px;">
+                Planet Impact: <span style="color:#ffb86c; font-weight:bold;">{node['p_text']}</span> | House Trend: <span style="color:#8be9fd; font-weight:bold;">House {node['house']} ({node['h_text']})</span>
+            </div>
+            <div style="color:#6272a4; font-size:11px; margin-top:2px;">
+                Calculated Distance Offset: {node['dist']:.4f}°
+            </div>
+        </div>
+        """
 
 # 6. Star Lord Color Highlighting Layout Map
 palette = ["#ff5555", "#50fa7b", "#f1fa8c", "#bd93f9", "#ff79c6", "#8be9fd", "#ffb86c", "#ff6e6e", "#6272a4"]
@@ -215,7 +243,7 @@ for entity in execution_order:
     """
 
 # ==========================================================
-# 8. DEEP CONTAINER PARSING FOR KP RULES (FIXED DUPLICATES)
+# 8. STRICT PARSING FOR KP RULES & SPECIFIC X/Y CHAINS ONLY
 # ==========================================================
 rules_rows = ""
 
@@ -234,10 +262,6 @@ def add_rule_line(label, value):
         color = "#f1fa8c"
         display = text
 
-    # Explicit accurate recalculation rewrite for R4 to enforce Ascendant purge
-    if "R4" in label.upper() or "CHAINS" in label.upper():
-        display = f"{len(x_chain_raw)} X-Subs, {len(y_chain_raw)} Y-Subs"
-
     rules_rows += f"""
     <div class="rule-line">
         <span style="color:white;">{label.strip()}:</span>
@@ -249,10 +273,13 @@ for key, value in logic.items():
     key_text = str(key).strip()
     key_upper = key_text.upper()
 
-    if key_upper in ["X", "Y", "XC", "YC"]:
-        continue
+    is_valid_rule = key_upper.startswith(("R1", "R2", "R3", "R4", "R5"))
+    is_clean_chain_item = (
+        (key_upper.startswith("X") or key_upper.startswith("Y")) 
+        and any(char.isdigit() for char in key_upper)
+    )
 
-    if key_upper.startswith(("R1", "R2", "R3", "R4", "R5")) or "CHAIN" in key_upper:
+    if is_valid_rule or is_clean_chain_item:
         if isinstance(value, (list, dict)):
             for item in (value if isinstance(value, list) else value.items()):
                 txt = str(item)
@@ -280,7 +307,7 @@ for key, value in logic.items():
                     add_rule_line(line.split(":")[0], line.split(":")[-1])
 
 # ==========================================================
-# 9. HTML LAYOUT RENDERING WITH ADAPTIVE MATRIX CONTROLLERS
+# 9. HTML LAYOUT CONTROLLERS WITH NATIVE X-Y TREND INJECTION
 # ==========================================================
 if view_mode == "KP Rules Detailed Screen":
     dashboard_grid_content = f"""
@@ -295,13 +322,13 @@ if view_mode == "KP Rules Detailed Screen":
             </div>
             <div style="margin-top: 25px; border-top: 1px dashed #30363d; padding-top: 15px;">
                 <div class="box-title">X & Y Dynamic Wave Trends</div>
-                {trend_html_blocks}
+                {trend_html_blocks if trend_html_blocks else "<div style='color:#6272a4;'>No Active Structural Waves Found</div>"}
             </div>
             <div style="margin-top: 30px; border-top: 1px solid #38444d; padding-top: 15px;">
                 <div style="color: #8b949e; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 10px; font-weight: bold;">Chain Depths Reference:</div>
                 <div class="chain-box-container">
-                    <span class="chain-item">X-Chain Trend: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></span>
-                    <span class="chain-item">Y-Chain Trend: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></span>
+                    <span class="chain-item">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></span>
+                    <span class="chain-item">Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></span>
                 </div>
             </div>
         </div>
@@ -332,7 +359,7 @@ else:
             </div>
             <div class="box-container">
                 <div class="box-title">X & Y Structural Wave Trends</div>
-                {trend_html_blocks}
+                {trend_html_blocks if trend_html_blocks else "<div style='color:#6272a4;'>No Active Waves Found</div>"}
             </div>
             <div class="box-container">
                 <div class="box-title">KP Trading Rules</div>
@@ -341,8 +368,8 @@ else:
             </div>
             <div class="box-container">
                 <div class="box-title">Stellar Chain Depth</div>
-                <div style="margin-bottom:6px;">X-Chain Trend: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></div>
-                <div>Y-Chain Trend: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></div>
+                <div style="margin-bottom:6px;">X-Chain: <span style='color:#bd93f9; font-weight:bold;'>{x_chain_val}</span></div>
+                <div>Y-Chain: <span style='color:#bd93f9; font-weight:bold;'>{y_chain_val}</span></div>
             </div>
         </div>
     </div>
@@ -427,15 +454,36 @@ complete_html_page = f"""
             flex-direction: row;
             gap: 20px;
         }}
+
         @media (max-width: 768px) {{
-            body {{ font-size: 12px; padding: 4px; }}
-            .header-banner {{ font-size: 0.8rem; padding: 8px; }}
-            .dashboard-grid {{ grid-template-columns: 1fr; gap: 10px; }}
-            table {{ font-size: 0.78rem; }}
-            .rule-line {{ font-size: 0.85rem; }}
-            .rule-header {{ font-size: 0.9rem; }}
-            .dasa-highlight-text {{ font-size: 0.95rem; }}
-            .chain-box-container {{ flex-direction: column; gap: 6px; }}
+            body {{
+                font-size: 12px;
+                padding: 4px;
+            }}
+            .header-banner {{
+                font-size: 0.8rem;
+                padding: 8px;
+            }}
+            .dashboard-grid {{
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }}
+            table {{
+                font-size: 0.78rem;
+            }}
+            .rule-line {{
+                font-size: 0.85rem;
+            }}
+            .rule-header {{
+                font-size: 0.9rem;
+            }}
+            .dasa-highlight-text {{
+                font-size: 0.95rem;
+            }}
+            .chain-box-container {{
+                flex-direction: column;
+                gap: 6px;
+            }}
         }}
     </style>
 </head>
@@ -449,9 +497,7 @@ complete_html_page = f"""
 </html>
 """
 
-# ==========================================================
-# 10. IFRAME COMPONENT RENDER CANVAS
-# ==========================================================
+# 10. Frame Renders with Modern Adaptive Sizing Parameter
 encoded_html = urllib.parse.quote(complete_html_page)
 
 st.iframe(
@@ -460,20 +506,15 @@ st.iframe(
     width="stretch"
 )
 
-# ==========================================================
-# SIDEBAR RENDERING FOR PLOTLY SPARKLINE GRAPHS
-# ==========================================================
-if trend_nodes:
+# Sidebar Graph Engine Canvas Injection using updated filtered layout nodes
+if filtered_trend_nodes:
     st.sidebar.markdown("---")
     st.sidebar.subheader("📈 Trend Sparklines")
-    for node in trend_nodes:
-        node_label = node.get('label', '')
-        if any(ignore in str(node_label) for ignore in ["Asc", "Lagna", "N/A", ""]):
-            continue
-            
+    for node in filtered_trend_nodes:
         fig = create_compact_trend_chart(node["graph_type"], node["color"])
+        
         st.sidebar.plotly_chart(
             fig, 
             width="stretch", 
-            key=f"trend_graph_{node_label}_{node['house']}_{node['dist']:.2f}"
+            key=f"trend_graph_{node['label']}_{node['house']}_{node['dist']:.2f}"
         )
