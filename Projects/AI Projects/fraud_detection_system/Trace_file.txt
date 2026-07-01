@@ -1,0 +1,88 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.12.3
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools>cd C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system>docker-compose up -d
+yaml: line 2: mapping values are not allowed in this context
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system>docker-compose up -d
+time="2026-06-23T00:14:25-06:00" level=warning msg="C:\\backup\\US_word_files\\Interview_learnings\\python_scripts\\Projects\\AI Projects\\fraud_detection_system\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+[+] Running 47/47
+ ✔ kafka Pulled                                                                                                                               227.3s
+ ✔ zookeeper Pulled                                                                                                                           339.3s
+ ✔ kafka-ui Pulled                                                                                                                            163.1s
+
+[+] Running 4/4
+ ✔ Network fraud_detection_system_default        Created                                                                                        0.2s
+ ✔ Container fraud_detection_system-kafka-1      Started                                                                                        2.7s
+ ✔ Container fraud_detection_system-kafka-ui-1   Started                                                                                        2.5s
+ ✔ Container fraud_detection_system-zookeeper-1  Started                                                                                        2.7s
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system>cd src
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src>py producer.py
+Traceback (most recent call last):
+  File "C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src\producer.py", line 4, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src>pip install confluent-kafka
+Collecting confluent-kafka
+  Downloading confluent_kafka-2.14.2-cp313-cp313-win_amd64.whl.metadata (33 kB)
+Downloading confluent_kafka-2.14.2-cp313-cp313-win_amd64.whl (4.5 MB)
+   ---------------------------------------- 4.5/4.5 MB 5.3 MB/s  0:00:00
+Installing collected packages: confluent-kafka
+Successfully installed confluent-kafka-2.14.2
+
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src>py producer.py
+Starting Transaction Simulator...
+%3|1782195824.159|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2031ms in state CONNECT)
+%3|1782195826.236|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2034ms in state CONNECT, 1 identical error(s) suppressed)
+%3|1782195830.785|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2048ms in state CONNECT)
+%3|1782195833.252|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2027ms in state CONNECT)
+%3|1782195835.351|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2032ms in state CONNECT)
+%3|1782195847.400|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2017ms in state CONNECT)
+%3|1782195849.515|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2045ms in state CONNECT)
+%3|1782195852.046|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2031ms in state CONNECT)
+%3|1782195856.534|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2021ms in state CONNECT)
+%3|1782195859.151|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2037ms in state CONNECT)
+%3|1782195861.495|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2030ms in state CONNECT)
+%3|1782195863.598|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2038ms in state CONNECT, 1 identical error(s) suppressed)
+%3|1782195866.177|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2021ms in state CONNECT)
+%3|1782195868.590|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2027ms in state CONNECT)
+%3|1782195875.674|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2032ms in state CONNECT)
+%3|1782195880.344|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2025ms in state CONNECT)
+%3|1782195884.772|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2028ms in state CONNECT)
+%3|1782195886.870|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2047ms in state CONNECT)
+%3|1782195891.837|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2028ms in state CONNECT)
+%3|1782195893.905|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2013ms in state CONNECT)
+%3|1782195896.488|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2024ms in state CONNECT)
+%3|1782195898.921|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2034ms in state CONNECT)
+%3|1782195901.001|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2033ms in state CONNECT)
+%3|1782195903.549|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2047ms in state CONNECT)
+%3|1782195906.000|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2051ms in state CONNECT)
+%3|1782195908.050|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2032ms in state CONNECT, 1 identical error(s) suppressed)
+%3|1782195910.618|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2036ms in state CONNECT)
+Traceback (most recent call last):
+  File "C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src\producer.py", line 23, in <module>
+    producer.flush()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+%4|1782195914.649|TERMINATE|rdkafka#producer-1| [thrd:app]: Producer terminating with 1 message (78 bytes) still in queue or transit: use flush() to wait for outstanding message delivery
+^C
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src>docker logs fraud_detection_system-kafka-1
+===> User
+uid=1000(appuser) gid=1000(appuser) groups=1000(appuser)
+===> Configuring ...
+Error: environment variable "KAFKA_PROCESS_ROLES" is not set
+Usage:
+  ub ensure <environment-variable> [flags]
+
+Flags:
+  -h, --help   help for ensure
+
+error in executing the command: environment variable "KAFKA_PROCESS_ROLES" is not set
+C:\backup\US_word_files\Interview_learnings\python_scripts\Projects\AI Projects\fraud_detection_system\src>

@@ -1,0 +1,12 @@
+{
+  "rajju_dosha_rules": {
+    "description": "stars falling in the same rajju bhaga lead to vaidhavyam (widowness).",
+    "bhaga_map": {
+      "padam": ["aswini", "makha", "moola", "aslesha", "jyestha", "revathi"],
+      "kati": ["bharani", "pubba", "poorvashadha", "pushyami", "anuradha", "uttara bhadra"],
+      "udaram": ["krithika", "uttara", "uttarashadha", "punarvasu", "visakha", "poorvabhadara"],
+      "kantham": ["rohini", "hastha", "sravana", "arudra", "swathi", "satabhisham"],
+      "masthakam": ["mrigasira", "chitta", "dhanishtha"]
+    }
+  }
+}

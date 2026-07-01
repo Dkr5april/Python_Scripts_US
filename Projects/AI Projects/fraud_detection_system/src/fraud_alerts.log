@@ -1,0 +1,22 @@
+[2026-06-23 01:25:23] {"user_id": 1680, "amount": 4871.06, "location": "India", "device": "mobile"} - Reasons: High Amount
+[2026-06-23 01:25:26] {"user_id": 1696, "amount": 4537.22, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High Amount, High-Risk Location
+[2026-06-23 01:25:34] {"user_id": 1546, "amount": 1128.96, "location": "High-Risk-Country", "device": "mobile"} - Reasons: High-Risk Location
+[2026-06-23 01:25:36] {"user_id": 2580, "amount": 4257.37, "location": "India", "device": "mobile"} - Reasons: High Amount
+[2026-06-23 01:25:40] {"user_id": 2846, "amount": 181.52, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:25:46] {"user_id": 6859, "amount": 4465.84, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High Amount, High-Risk Location
+[2026-06-23 01:25:52] {"user_id": 6964, "amount": 4896.34, "location": "India", "device": "mobile"} - Reasons: High Amount
+[2026-06-23 01:25:54] {"user_id": 5175, "amount": 4706.18, "location": "USA", "device": "desktop"} - Reasons: High Amount
+[2026-06-23 01:25:56] {"user_id": 8218, "amount": 914.86, "location": "High-Risk-Country", "device": "mobile"} - Reasons: High-Risk Location
+[2026-06-23 01:26:00] {"user_id": 1030, "amount": 530.54, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:26:04] {"user_id": 5778, "amount": 1651.72, "location": "High-Risk-Country", "device": "mobile"} - Reasons: High-Risk Location
+[2026-06-23 01:26:07] {"user_id": 8119, "amount": 3381.72, "location": "High-Risk-Country", "device": "mobile"} - Reasons: High-Risk Location
+[2026-06-23 01:26:11] {"user_id": 9216, "amount": 424.11, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:26:23] {"user_id": 3564, "amount": 4440.58, "location": "USA", "device": "mobile"} - Reasons: High Amount
+[2026-06-23 01:26:27] {"user_id": 8070, "amount": 4533.87, "location": "India", "device": "desktop"} - Reasons: High Amount
+[2026-06-23 01:26:29] {"user_id": 7255, "amount": 1420.85, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:26:31] {"user_id": 2744, "amount": 4281.27, "location": "UK", "device": "mobile"} - Reasons: High Amount
+[2026-06-23 01:26:33] {"user_id": 4899, "amount": 686.94, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:26:37] {"user_id": 6812, "amount": 1190.6, "location": "High-Risk-Country", "device": "desktop"} - Reasons: High-Risk Location
+[2026-06-23 01:26:39] {"user_id": 1334, "amount": 356.42, "location": "High-Risk-Country", "device": "mobile"} - Reasons: High-Risk Location
+[2026-06-23 01:26:41] {"user_id": 6982, "amount": 4756.87, "location": "USA", "device": "desktop"} - Reasons: High Amount
+[2026-06-23 01:26:47] {"user_id": 6415, "amount": 4956.71, "location": "USA", "device": "desktop"} - Reasons: High Amount

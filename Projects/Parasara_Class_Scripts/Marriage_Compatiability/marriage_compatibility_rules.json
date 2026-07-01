@@ -1,0 +1,19 @@
+{
+  "marriage_compatibility_rules": {
+    "description": "నిషిద్ధ సంబంధాలు (not compatible): 2-12, 6-8, 9-5 మాత్రమే.",
+    "logic_map": {
+      "mesha": { "incompatible": ["vrishabha", "kanya", "dhanur"] },
+      "vrishabha": { "incompatible": ["mithuna", "tula", "makara"] },
+      "mithuna": { "incompatible": ["karkataka", "vrischika", "kumbha"] },
+      "karkataka": { "incompatible": ["simha", "dhanur", "meena"] },
+      "simha": { "incompatible": ["kanya", "makara", "mesha"] },
+      "kanya": { "incompatible": ["tula", "kumbha", "vrishabha"] },
+      "tula": { "incompatible": ["vrischika", "meena", "mithuna"] },
+      "vrischika": { "incompatible": ["dhanur", "mesha", "karkataka"] },
+      "dhanur": { "incompatible": ["makara", "vrishabha", "simha"] },
+      "makara": { "incompatible": ["kumbha", "mithuna", "kanya"] },
+      "kumbha": { "incompatible": ["meena", "karkataka", "tula"] },
+      "meena": { "incompatible": ["mesha", "simha", "vrischika"] }
+    }
+  }
+}

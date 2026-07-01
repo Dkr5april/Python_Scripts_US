@@ -1,0 +1,10 @@
+Source,Target,Relationship,Category
+Sun,Simha,RULES,Ownership
+Jupiter,Dhanus,RULES,Ownership
+Jupiter,Meena,RULES,Ownership
+Sun,Father,IS_KARAKA_FOR,Signification
+Sun,Government,IS_KARAKA_FOR,Signification
+Jupiter,Wealth,IS_KARAKA_FOR,Signification
+Jupiter,Children,IS_KARAKA_FOR,Signification
+5th House,Intelligence,SIGNIFIES,House_Rule
+5th House,Children,SIGNIFIES,House_Rule

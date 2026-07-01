@@ -5,7 +5,7 @@ def filter_group_chat_by_people(input_filename="whatsapp_group_chat.txt", output
     # =========================================================================
     # EDIT THIS LIST: Put the exact WhatsApp names of the people you want to keep
     # =========================================================================
-    TARGET_PEOPLE = ["P V SATYARAMESH", "Koteswar", "Hari anna"] 
+    TARGET_PEOPLE = ["P V SATYARAMESH"] 
     
     # Regex to capture the timestamp and the sender's name dynamically
     # Group 1 captures the date/time info, Group 2 captures the exact Sender Name

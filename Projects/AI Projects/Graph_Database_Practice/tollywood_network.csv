@@ -1,0 +1,11 @@
+Source,Target,Type,weight,book
+NTR Jr.,S.S. Rajamouli,Undirected,40,1
+NTR Jr.,Ram Charan,Undirected,50,1
+Ram Charan,S.S. Rajamouli,Undirected,35,1
+NTR Jr.,Koratala Siva,Undirected,30,2
+Prabhas,S.S. Rajamouli,Undirected,45,1
+Prabhas,Rana Daggubati,Undirected,35,1
+Prabhas,Koratala Siva,Undirected,20,1
+Allu Arjun,Sukumar,Undirected,55,2
+Fahadh Faasil,Allu Arjun,Undirected,25,2
+Fahadh Faasil,Sukumar,Undirected,20,2

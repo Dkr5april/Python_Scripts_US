@@ -1,0 +1,21 @@
+{
+  "kuja_dosha_rules": {
+    "dosha_houses": [1, 2, 4, 7, 8, 12],
+    "exempt_lagnas": [
+      "mesha", 
+      "vrischika", 
+      "karkataka", 
+      "makara", 
+      "dhanur", 
+      "meena"
+    ],
+    "exemption_conjunctions": [
+      "rahu", 
+      "ravi", 
+      "sani", 
+      "kethu", 
+      "guru"
+    ],
+    "description": "If kuja is in dosha_houses from lagna, chandra, or sukra, check against exempt_lagnas or exemption_conjunctions."
+  }
+}
